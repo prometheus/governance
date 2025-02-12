@@ -1,0 +1,99 @@
+# ROLES.md
+
+## Contributor Ladder
+
+Hello! We are excited that you want to learn more about our project contributor ladder! This contributor ladder outlines the different contributor roles within the project, along with the responsibilities and privileges that come with them. Community members generally start at the first levels of the "ladder" and advance up it as their involvement in the project grows. Our project members are happy to help you advance along the contributor ladder.
+
+Each of the contributor roles below is organized into lists of three types of things. "Responsibilities" are things that a contributor is expected to do. "Requirements" are qualifications a person needs to meet to be in that role, and "Privileges" are things contributors on that level are entitled to.
+
+### Contributor
+
+Description: A Contributor contributes directly to the project and adds value to it. Contributions do not need to be code. People at the Contributor level may be new contributors, or they may only contribute occasionally.
+
+* Qualifying Contributions
+  * Report, triage, work on, or resolve issues via comments
+  * Submit, review, or test PRs
+  * Contribute to the documentation
+  * Participate in dev summits or workgroup meetings
+  * Answer questions from other community members
+  * Help test releases
+  * Run or help run events
+  * Promote the project in public
+  * Help run the project infrastructure
+* Responsibilities
+  * Follow the CNCF CoC
+  * Follow the project contributing guide
+* Privileges
+  * Invitations to contributor events
+
+### Member
+
+Description: A Member is an established contributor who regularly participates in the project. Members have privileges in both project repositories and elections, and as such are expected to act in the interests of the whole project.
+
+A Member must meet the responsibilities and has the requirements of a Contributor, plus:
+
+* Responsibilities include
+  * Continues to contribute regularly.
+	* This can be demonstrated by having at least 20 Github contributions a year in [DevStats](https://devstats.cncf.io/).
+	* We encourage non-code contributions like attending and contributing to dev summit and workgroup meetings, organizing and running activities within the Prometheus community, etc.
+* Requirements
+  * Have made multiple contributions to the project or community.  
+	Contributions may include, but are not limited to:
+	* Authoring or reviewing PRs on GitHub
+	* Filing or commenting on issues on GitHub
+	* Organizing and running activities (e.g. events, surveys) within the Prometheus community
+	* Contributing to SIGs, subprojects, or community discussions (e.g. meetings, chat, email, and discussion forums)
+	* Must have two or more Maintainers as sponsors. At least one sponsor must have a different employer than the applying Contributor
+	* Must enable 2FA on their Github account
+* Privileges
+  * Entitled to vote in the Steering Committee Election
+  * Entitled to stand in the Steering Committee Election
+  * Can recommend other contributors to become Org Members
+  * May be assigned Issues and Reviews
+  * May give commands to CI/CD automation
+  * Can be added to repository teams
+  * Added as a member of the Github org
+
+The process for a Contributor to become a Member is as follows:
+
+1. Open an GitHub Issue against the [**TODO:** prometheus/community repo]
+   1. Ensure your sponsors are @mentioned on the issue
+   2. Assign label **TODO**
+   3. Complete every item on the checklist (**TODO:** template)
+   4. Make sure that the list of contributions included is representative of your work on the project.
+2. Sponsors reply via a comment on the GitHub Issue with explicit confirmation
+3. Once Sponsors have responded positively, the request will be reviewed by the Steering Committee or its delegates to make sure certain contributions are valid and non-trivial.
+4. If the threshold is met, the Contributor is added to [https://github.com/orgs/prometheus](https://github.com/orgs/prometheus)/people and [https://github.com/orgs/prometheus-community/people](https://github.com/orgs/prometheus-community/people) and becomes a Member
+
+### Maintainer
+
+Description: Maintainers are well-established contributors who review and approve code contributions. Maintainers are responsible for the long-term health of the project including reviewing PRs, stability, adoption, security, etc.
+
+Maintainer status is scoped to a repository or a part of the codebase.
+
+A Maintainer must meet the responsibilities and requirements of an Organization Member, plus:
+
+* Responsibilities include
+  * Demonstrate sound technical judgment (maybe asked to step down by a maintainer if they lose the confidence of the other maintainers)
+  * Responsible for project quality control via code reviews
+  * Responsible for technical quality control of the documentation, related to their project
+  * Expected to be responsive to review requests
+  * Mentoring new contributors
+  * Determining strategy and policy for the project
+  * Participating in, and leading, community meetings
+  * May merge PRs
+* Requirements
+  * Consistently contributing to the codebase
+  * Reviewer for or author of substantial PRs to the codebase, with the definition of substantial subject to the maintainer's discretion (e.g. refactors/adds new functionality rather than one-line pulls).
+  * Demonstrates a broad knowledge of the project across multiple areas
+  * Can exercise judgment for the good of the project, independent of their employer, friends, or team
+  * Mentors other contributors
+* Additional privileges
+  * Represent the project in public as a Maintainer
+  * Have a vote in Maintainer decision-making meetings
+
+Process of becoming a maintainer:
+
+1. Any current Maintainer may nominate a current Organization Member to become a new Maintainer, by opening a PR by adding them to the `MAINTAINERS.md` file.
+2. The nominee will add a comment to the PR testifying that they agree to all requirements of becoming a Maintainer.
+3. None of the other maintainers for the project must object.
