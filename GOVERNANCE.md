@@ -12,7 +12,7 @@ The Prometheus developers and community are expected to follow the values define
 
 ## Roles
 
-We have a contributor ladder that includes the roles of Contributor, Member, Maintainer and Steering Committee. The steering committee responsibilities and elections are outlined below. The rest of the roles are detailed in [ROLES.md](#roles.md).
+We have a contributor ladder that includes the roles of Contributor, Member, Maintainer and Steering Committee. The steering committee responsibilities and elections are outlined below. The rest of the roles are detailed in [ROLES.md](./ROLES.md).
 
 ## Charter
 
