@@ -4,7 +4,9 @@
 
 Hello! We are excited that you want to learn more about our project contributor ladder! This contributor ladder outlines the different contributor roles within the project, along with the responsibilities and privileges that come with them. Community members generally start at the first levels of the "ladder" and advance up it as their involvement in the project grows. Our project members are happy to help you advance along the contributor ladder.
 
-Each of the contributor roles below is organized into lists of three types of things. "Responsibilities" are things that a contributor is expected to do. "Requirements" are qualifications a person needs to meet to be in that role, and "Privileges" are things contributors on that level are entitled to.
+Each of the contributor roles below is organized into lists of three types of things. "Responsibilities" are things that a contributor is expected to do. "Requirements" are qualifications a person needs to meet to be in that role, and "Privileges" are things contributors on that level are entitled to. 
+
+Being in a "higher" level on the ladder includes the "lower" levels, e.g. if you are a Maintainer, you are also considered a Member. If you are a Member, you are also considered a Contributor and have the privileges and responsibilities of all the lower levels.
 
 ### Contributor
 
@@ -33,26 +35,24 @@ Description: A Member is an established contributor who regularly participates i
 A Member must meet the responsibilities and has the requirements of a Contributor, plus:
 
 * Responsibilities include
-  * Continues to contribute regularly.
-	* This can be demonstrated by having at least 20 Github contributions a year in [DevStats](https://devstats.cncf.io/).
+  * Continuing to contribute regularly.
+	* This can be demonstrated by having at least 20 GitHub contributions a year in [DevStats](https://devstats.cncf.io/).
 	* We encourage non-code contributions like attending and contributing to dev summit and workgroup meetings, organizing and running activities within the Prometheus community, etc.
+
 * Requirements
-  * Have made multiple contributions to the project or community.  
-	Contributions may include, but are not limited to:
-	* Authoring or reviewing PRs on GitHub
-	* Filing or commenting on issues on GitHub
-	* Organizing and running activities (e.g. events, surveys) within the Prometheus community
-	* Contributing to SIGs, subprojects, or community discussions (e.g. meetings, chat, email, and discussion forums)
+  * Must meet the requirements of a Contributor
 	* Must have two or more Maintainers as sponsors. At least one sponsor must have a different employer than the applying Contributor
-	* Must enable 2FA on their Github account
+	* Must enable 2FA on their GitHub account
+
 * Privileges
   * Entitled to vote in the Steering Committee Election
   * Entitled to stand in the Steering Committee Election
   * Can recommend other contributors to become Org Members
   * May be assigned Issues and Reviews
   * May give commands to CI/CD automation
+  * Can manage CI and package registry secrets
   * Can be added to repository teams
-  * Added as a member of the Github org
+  * Added as a member of the GitHub org
 
 The process for a Contributor to become a Member is as follows:
 
@@ -94,6 +94,12 @@ A Maintainer must meet the responsibilities and requirements of an Organization 
 
 Process of becoming a maintainer:
 
-1. Any current Maintainer may nominate a current Organization Member to become a new Maintainer, by opening a PR by adding them to the `MAINTAINERS.md` file.
+1. Any current Maintainer may nominate a current Member to become a new Maintainer, by opening a PR by adding them to the `MAINTAINERS.md` file.
 2. The nominee will add a comment to the PR testifying that they agree to all requirements of becoming a Maintainer.
-3. None of the other maintainers for the project must object.
+3. None of the other maintainers of the repository must object.
+
+## Stepping Down/Emeritus Process
+
+If and when contributors' commitment levels change, contributors can consider stepping down (moving down the contributor ladder) vs moving to emeritus status (completely stepping away from the project).
+
+Contact the Maintainers about changing to Emeritus status, or reducing your contributor level.

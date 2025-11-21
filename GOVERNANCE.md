@@ -1,31 +1,31 @@
-# Prometheus Governance 2.0
+# Prometheus Governance
 
-This document describes the rules and governance of the project. It is meant to be followed by all the developers of the project and the Prometheus community. This governance is an open, living document, and will continue to evolve as the community and project change.
+This document describes the rules and governance of the Prometheus project. It is meant to be followed by all the developers of the project and the Prometheus community. This governance is an open, living document, and will continue to evolve as the community and project change.
 
 It outlines the roles and responsibilities of the Steering Committee, the decision-making process, and the election procedures for committee members. It also details the contributor ladder, including the roles of Contributor, Member, and Maintainer, and the requirements and privileges associated with each role.
 
-The Prometheus Steering Committee is the governing body of the Prometheus project, providing decision-making and oversight pertaining to the project bylaws, sub-organizations[^1], and financial planning. The Steering Committee also defines the project values and structure.
+The Prometheus Steering Committee is the governing body of the Prometheus project, providing decision-making and oversight pertaining to the project by-laws, GitHub organizations[^1], and financial planning. The Steering Committee also defines the project values and structure.
 
 ## Values
 
-The Prometheus developers and community are expected to follow the values defined in the [CNCF charter](https://www.cncf.io/about/charter/), including the [CNCF Code of Conduct](https://github.com/cncf/foundation/blob/master/code-of-conduct.md). Furthermore, the Prometheus community strives for kindness, giving feedback effectively, and building a welcoming environment. The Prometheus developers default to deciding by consensus and only resort to conflict resolution by a majority vote if consensus cannot be reached.
+The Prometheus developers and community are expected to follow the values defined in the [CNCF charter](https://www.cncf.io/about/charter/), including the [CNCF Code of Conduct](https://github.com/cncf/foundation/blob/master/code-of-conduct.md). Furthermore, the Prometheus community strives for kindness, giving feedback effectively, and building a welcoming environment. The Prometheus developers default to deciding by consensus and only fall back to resolution by voting if consensus cannot be reached.
 
 ## Roles
 
-We have a contributor ladder that includes the roles of Contributor, Member, Maintainer and Steering Committee. The steering committee responsibilities and elections are outlined below. The rest of the roles are detailed in [ROLES.md](./ROLES.md).
+We have a contributor ladder that includes the roles of Contributor, Member, Maintainer and Steering Committee. The Steering Committee responsibilities and elections are outlined below. The rest of the roles are detailed in [ROLES.md](./ROLES.md).
 
 ## Charter
 
 The following responsibilities and powers belong to the Steering Committee.
 
 * Define, evolve, and promote the vision, values, and mission of the project.
-* Define and evolve project governance structures and policies, including project roles and how collaborators become members, approvers, leads, and/or administrators. This includes policy for the creation and administration of working groups and committees.
+* Define and evolve project governance structures and policies, including project roles and how collaborators adopt these roles. This includes policy for the creation and administration of working groups and committees.
 * Steward, control access, delegate access, and establish processes regarding all Prometheus project resources and has the final say in the disposition of those resources.
 * Coordinate with the CNCF regarding usage of the Prometheus brand and how that brand can be used in relation to other efforts or vendors.
 * Receive and handle reports about code of conduct violations and maintain confidentiality.
 * Act as the final escalation point and decide for any disputes, issues, clarifications, or escalations within the project scope.
-* Have “owners” role for the `prometheus` and `prometheus-community` github organizations.
-* Ultimate responsibility for all key project functions, unless delegated to a team. For example, vulnerability and security report handling, or github administration.
+* Have “owners” role for the project's GitHub organizations[^1].
+* Ultimate responsibility for all key project functions, unless delegated to a team. For example, vulnerability and security report handling, or GitHub administration.
 
 ## Committee Meetings
 
@@ -51,23 +51,30 @@ The current membership of the committee is currently (listed alphabetically by f
 
 The Steering Committee defaults to deciding by consensus.
 
-Decisions requiring a vote include: issuing written policy, amending existing  
-written policy, creating, removing, or modifying a working group, all spending,  
-hiring, and contracting, official responses to publicly raised issues, or any  
-other decisions that at least two of the members present decide require a vote.
+Decisions requiring a vote include:
+* Issuing written policy
+* Amending existing written policy
+* Creating, removing, or modifying a working group
+* All spending, hiring, and contracting
+* Official responses to publicly raised issues
+* Any other decisions that two or more members present agree should be put to a vote
 
-Votes happen by simple majority.
+To pass a decision, it needs approving votes from more than half of the current Steering Committee members.
+
+__TODO__: Explain how to handle multi-proposal votes.
 
 ## Getting in touch
 
-There are two ways to raise issues to the steering committee for decision:
+There are two ways to raise issues to the Steering Committee for decision:
+
+__TODO__: Figure out if we want to keep the archive or a mailing-alias.
 
 1. The Steering Committee can be reached privately by emailing [prometheus-steering@googlegroups.com](mailto:prometheus-steering@googlegroups.com). This is a private discussion list to which all members of the committee have access.
-2. The Steering Committee can be reached publicly by opening an issue on [the governance repository](https://github.com/prometheus/governance/issues) and indicating that you would like attention from the steering committee.
+2. The Steering Committee can be reached publicly by opening an issue on [the governance repository](https://github.com/prometheus/governance/issues) and indicating that you would like attention from the Steering Committee.
 
 ## Composition
 
-The steering committee has 7 seats. These seats are open to any project member. See [Candidate Eligibility](#candidate-eligibility) for a definition.
+The Steering Committee has 7 seats. These seats are open to any project member. See [Candidate Eligibility](#candidate-eligibility) for a definition.
 
 Steering Committee members serve for 2 year terms, staggered to preserve continuity. Every year, either 4 or 3 contributor seats are elected.
 
@@ -82,7 +89,7 @@ Seven days before the election, the call for nominations will be closed. The ele
 
 ### Election Officers
 
-Six weeks or more before the election, the Steering Committee will appoint three Election Officer(s) to administer the election. Election Officers will be Organization Members in good standing who are eligible to vote, are not running for Steering Committee in that election, who are not currently part of the Steering Committee and can make a public promise of impartiality. 
+Six weeks or more before the election, the Steering Committee will appoint three Election Officer(s) to administer the election. Election Officers will be Organization Members in good standing who are eligible to vote, are not running for Steering Committee in that election, who are not currently part of the Steering Committee, and can make a public promise of impartiality. 
 
 They will be responsible for:
 
@@ -93,7 +100,7 @@ They will be responsible for:
 
 ### Eligibility to Vote
 
-Anyone who is an Organization Member as defined in [ROLES.md](#roles.md).
+Anyone who is an Organization Member as defined in [ROLES.md](./ROLES.md) may vote.
 
 The electoral roll of all eligible voters will be captured at [elections](./elections/) and the voters’ guide will be captured at [voters guide](./elections/).
 
@@ -122,44 +129,39 @@ A special election for that position will be held as soon as possible, unless th
 
 ## Changes to the Governance
 
-Changes to this Governance may be proposed via a Pull Request on the Governance itself.  
-Amendments are accepted with 2/3rd majority consent of the committee as per the [Decision Process](#decision-process) outlined above.
+Changes to this Governance may be proposed via a Pull Request on the Governance itself.
+
+Amendments are accepted with 2/3rd of all current committee members to cast an approving vote as per the [Decision Process](#decision-process) outlined above.
 
 Proposals and amendments to the charter are available for at least a period of one week for comments and questions before a vote will occur.
 
-## Authority, Facilitation, and Decision Making
+## Authority, Facilitation, and Decision-Making
 
 Ideally, most decisions will be made at the lowest possible level within the project: within individual working groups. When this is not possible, the Steering Committee can help facilitate a conversation to work through the contended issue. When facilitation by the Steering Committee does not resolve the contention, the Steering Committee may have to decide.
 
-For example, Technical governance is expected to be performed by the Maintainers of the various project areas and subprojects, as defined in the appropriate OWNERS / MAINTAINERS files.
+For example, technical governance is expected to be performed by the Maintainers of the various project areas and subprojects, as defined in the appropriate OWNERS / MAINTAINERS files.
 
 Note that if the committee is called to resolve contended decisions regularly, it is a symptom of a larger problem in the community that will need to be addressed.
 
 ## Inactivity
 
-It is important for members to be and stay active to set an example and show commitment to the project. Inactivity is harmful to the project as it may lead to unexpected delays, contributor attrition, and a loss of trust in the project.
+It is important for Members to be and stay active to set an example and show commitment to the project. Inactivity is harmful to the project as it may lead to unexpected delays, contributor attrition, and a loss of trust in the project.
 
 * Inactivity is measured by
   * Periods of no contributions for longer than 6 months
   * Not having 20 contributions in the preceding 12-month window for more than 6 months
+
 * Consequences of being inactive include
   * Involuntary removal or demotion
   * Being asked to move to Emeritus status
-  * Not counting against quorum in votes
+
+For maintainers of mature or stable projects that require little to no maintenance, exceptions can be granted by the Steering Committee.
 
 ## Involuntary Removal or Demotion
 
 Involuntary removal/demotion of a contributor happens when responsibilities and requirements aren't being met. This may include repeated patterns of inactivity, extended periods of inactivity, a period of failing to meet the requirements of your role, and/or a violation of the Code of Conduct. This process is important because it protects the community and its deliverables while also opening up opportunities for new contributors to step in.
 
-Inactive members can be automatically removed.
-
 Involuntary removal or demotion of Maintainers or Steering Committee members is handled through a vote by a majority of the current Steering Committee. If this pertains to a Steering Committee member, that member is not eligible to discuss or vote on the matter.
-
-## Stepping Down/Emeritus Process
-
-If and when contributors' commitment levels change, contributors can consider stepping down (moving down the contributor ladder) vs moving to emeritus status (completely stepping away from the project).
-
-Contact the Maintainers about changing to Emeritus status, or reducing your contributor level.
 
 ## Contact
 
@@ -171,9 +173,11 @@ For inquiries, please reach out to:
 
 All current Prometheus team members become members as per new governance. 
 
-The individual projects already define who is a maintainer for which specific project in their corresponding MAINTAINERS.md. People listed in these files are therefore going to be maintainers. 
+The individual projects already define who is a maintainer for which specific project in their corresponding MAINTAINERS.md. People listed in these files are therefore going to be maintainers. This includes all the GitHub organizations[^1].
 
-The existing Prometheus team is going to hold votes, as described in the new governance, to elect a Bootstrap steering committee of 7 members, where the highest voted 3 members will hold a 2 year and the next 4 members will hold a 1-year term.  
+The initial list of eligible voters might include members and maintainers that are inactive according to [our requirements](#inactivity). This is OK, and they can still participate in the vote for the Bootstrap Steering Committee.
+
+The existing Prometheus team is going to hold votes, as described in the new governance, to elect a Bootstrap Steering Committee of 7 members, where the highest voted 3 members will hold a 2 year and the next 4 members will hold a 1-year term.  
 
 
-[^1]:	[github.com/prometheus](http://github.com/prometheus), [github.com/prometheus-community](http://github.com/prometheus-community), [github.com/promcon](http://github.com/promcon), [github.com/openmetrics](http://github.com/openmetrics)
+[^1]:	[github.com/prometheus](http://github.com/prometheus), [github.com/prometheus-community](http://github.com/prometheus-community), [github.com/promcon](http://github.com/promcon)
