@@ -16,13 +16,14 @@ We have a contributor ladder that includes the roles of Contributor, Member, Mai
 
 ## Charter
 
-The following responsibilities and powers belong to the Steering Committee.
+The Steering Committee has the following responsibilities and powers.
 
 * Define, evolve, and promote the vision, values, and mission of the project.
 * Define and evolve project governance structures and policies, including project roles and how collaborators adopt these roles. This includes policy for the creation and administration of working groups and committees.
-* Steward, control access, delegate access, and establish processes regarding all Prometheus project resources and has the final say in the disposition of those resources.
-* Coordinate with the CNCF regarding usage of the Prometheus brand and how that brand can be used in relation to other efforts or vendors.
-* Receive and handle reports about code of conduct violations and maintain confidentiality.
+* Steward, control access, delegate access, and establish processes regarding all Prometheus project resources, having the final say in the disposition of those resources.
+* Coordinate with the LF and the CNCF regarding usage of the Prometheus trademark and how that trademark can be used in relation to and with other efforts, projects, or vendors.
+__TODO__: Discuss what happens if SC members is violating CoC.
+* Receive and handle reports about Code of Conduct violations while maintaining confidentiality.
 * Act as the final escalation point and decide for any disputes, issues, clarifications, or escalations within the project scope.
 * Have “owners” role for the project's GitHub organizations[^1].
 * Ultimate responsibility for all key project functions, unless delegated to a team. For example, vulnerability and security report handling, or GitHub administration.
@@ -34,15 +35,13 @@ Meetings are held online, and are public by default (anyone can attend).
 
 Given the private nature of some of these discussions (e.g. privacy, private emails to the committee, code of conduct violations, escalations, disputes between members, security reports, etc.) some meetings are held in private.
 
-Public meeting recordings and notes are public and private meeting notes are private.
-
 Questions and proposals for changes to governance or community procedures are posted as [issues in the governance repo](https://github.com/prometheus/governance/issues), and the Steering Committee invites your feedback there. See [Getting in touch](#getting-in-touch) for other options.
 
 ## Committee members
 
-Seats on the Steering Committee are held by an individual, not by their employer.
+Seats on the Steering Committee are held by individuals, not by or through their respective employers.
 
-The current membership of the committee is currently (listed alphabetically by first name):
+The current membership of the Steering Committee, listed alphabetically by first name:
 
 | \\&nbsp;                                                         | Member           | Organization |  
 | -------------------------------------------------------------- | ---------------- | ------------ |
@@ -76,16 +75,16 @@ __TODO__: Figure out if we want to keep the archive or a mailing-alias.
 
 The Steering Committee has 7 seats. These seats are open to any project member. See [Candidate Eligibility](#candidate-eligibility) for a definition.
 
-Steering Committee members serve for 2 year terms, staggered to preserve continuity. Every year, either 4 or 3 contributor seats are elected.
+Steering Committee members serve for 2 year terms, staggered to preserve continuity. Not accounting for backfill, this means that either 3 or 4 Steering Committee members are elected per year.
 
 ## Election Procedure
 
 ### Timeline
 
-Steering Committee elections are held annually. Six weeks or more before the election, the Steering Committee will appoint [Election Officer(s)](#election-officers).  
-Four weeks or more before the election, the Election Officer(s) will issue a call for nominations, publish the list of voters. 
+Steering Committee elections are held annually, aiming to seat new members in __TODO__. Six weeks or more before the election, the Steering Committee will appoint [Election Officer(s)](#election-officers).
+Four weeks or more before the election, the Election Officer(s) will issue a call for nominations and publish the list of eligible voters.
 
-Seven days before the election, the call for nominations will be closed. The election will be open for voting for no less than two weeks and no more than four. The results of the election will be announced within one week of closing the election. New Steering Committee members will take office is May or June of each year.
+Seven days before the election, the call for nominations will be closed. The election will be open for voting for no less than two weeks and no more than four weeks. The result of the election will be announced within one week of closing the election.
 
 ### Election Officers
 
@@ -106,7 +105,7 @@ The electoral roll of all eligible voters will be captured at [elections](./elec
 
 ### Candidate Eligibility
 
-Community members must be eligible to vote to stand for election. Candidates should self-nominate. There are no term limits for Steering Committee members.
+Organization members must be eligible to vote to stand for election. Candidates should self-nominate. There are no term limits for Steering Committee members.
 
 ### Voting Procedure
 
@@ -117,11 +116,11 @@ Elections will be held using a ranked choice voting system which supports voter 
 No more than 2 seats may be held by employees of the same organization (or  
 conglomerate, in the case of companies owning each other). If an election results in greater than 2 employees of the same organization being selected, the lowest vote getters from any particular employer will be removed until representation on the committee is down to 2.
 
-If employers change because of job changes, acquisitions, or other events, in a way that would yield too many seats being held by employees of the same organization, and the next regular election is more than 10 weeks away, sufficient members of the committee must resign until only 2 employees of the same employer are left. If it is impossible to find sufficient members to resign, all employees of that organization will be removed and new special elections held. 
+If affiliations change because of job changes, acquisitions, or other events and would result in more than 2 affiliated individuals serving on the Steering Committee and the next regular election is more than 10 weeks away, a sufficient number of members of the Steering Committee must resign. If this does not happen within two weeks, all affiliated individuals from such a set are removed and backfilled through normal backfill mechanisms.
 
 In the event of a question of company membership (for example evaluating independence of corporate subsidiaries) a majority of all non-involved Steering Committee members will decide.
 
-## Vacancies
+## Backfilling
 
 In the event of a resignation or other loss of an elected Steering Committee member, a new vote for that seat is started by Election Officers.
 
@@ -133,7 +132,7 @@ Changes to this Governance may be proposed via a Pull Request on the Governance 
 
 Amendments are accepted with 2/3rd of all current committee members to cast an approving vote as per the [Decision Process](#decision-process) outlined above.
 
-Proposals and amendments to the charter are available for at least a period of one week for comments and questions before a vote will occur.
+Proposals and amendments to the charter are available for at least a period of two weeks for comments and questions before a vote will occur.
 
 ## Authority, Facilitation, and Decision-Making
 
@@ -141,7 +140,7 @@ Ideally, most decisions will be made at the lowest possible level within the pro
 
 For example, technical governance is expected to be performed by the Maintainers of the various project areas and subprojects, as defined in the appropriate OWNERS / MAINTAINERS files.
 
-Note that if the committee is called to resolve contended decisions regularly, it is a symptom of a larger problem in the community that will need to be addressed.
+Note that if the Steering Committee is called to resolve contended decisions regularly, it is a symptom of a larger problem in the community that will need to be addressed.
 
 ## Inactivity
 
@@ -159,7 +158,7 @@ For maintainers of mature or stable projects that require little to no maintenan
 
 ## Involuntary Removal or Demotion
 
-Involuntary removal/demotion of a contributor happens when responsibilities and requirements aren't being met. This may include repeated patterns of inactivity, extended periods of inactivity, a period of failing to meet the requirements of your role, and/or a violation of the Code of Conduct. This process is important because it protects the community and its deliverables while also opening up opportunities for new contributors to step in.
+Involuntary removal/demotion of a contributor happens when responsibilities and requirements aren't being met. This may include repeated patterns of inactivity, extended periods of inactivity, a period of failing to meet the requirements of the assigned role, and/or a violation of the Code of Conduct. This process is important because it protects the community and its deliverables while also opening up opportunities for new contributors to step in.
 
 Involuntary removal or demotion of Maintainers or Steering Committee members is handled through a vote by a majority of the current Steering Committee. If this pertains to a Steering Committee member, that member is not eligible to discuss or vote on the matter.
 
