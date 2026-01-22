@@ -22,7 +22,6 @@ The Steering Committee has the following responsibilities and powers.
 * Define and evolve project governance structures and policies, including project roles and how collaborators adopt these roles. This includes policy for the creation and administration of working groups and committees.
 * Steward, control access, delegate access, and establish processes regarding all Prometheus project resources, having the final say in the disposition of those resources.
 * Coordinate with the LF and the CNCF regarding usage of the Prometheus trademark and how that trademark can be used in relation to and with other efforts, projects, or vendors.
-__TODO__: Discuss what happens if SC members is violating CoC.
 * Receive and handle reports about Code of Conduct violations while maintaining confidentiality.
 * Act as the final escalation point and decide for any disputes, issues, clarifications, or escalations within the project scope.
 * Have "owners" role for the project's GitHub organizations[^1].
@@ -60,16 +59,15 @@ Decisions requiring a vote include:
 
 To pass a decision, it needs approving votes from more than half of the current Steering Committee members.
 
-__TODO__: Explain how to handle multi-proposal votes.
+The votes should be yes / no votes, and a multi-proposal vote should have a vote for each proposal.
 
 ## Getting in touch
 
 There are two ways to raise issues to the Steering Committee for decision:
 
-__TODO__: Figure out if we want to keep the archive or a mailing-alias.
-
 1. The Steering Committee can be reached privately by emailing [prometheus-steering@googlegroups.com](mailto:prometheus-steering@googlegroups.com). This group is a private discussion list to which all committee members have access.
-2. The Steering Committee can be reached publicly by opening an issue on [the governance repository](https://github.com/prometheus/governance/issues) and indicating that you would like attention from the Steering Committee.
+  * If you want to report a Code of Conduct violation against a Steering Committee member, please report it to the CNCF at `conduct@cncf.io` following the [reporting process](https://github.com/cncf/foundation/blob/main/code-of-conduct/coc-incident-resolution-procedures.md#how-to-submit-a-report).
+1. The Steering Committee can be reached publicly by opening an issue on [the governance repository](https://github.com/prometheus/governance/issues) and indicating that you would like attention from the Steering Committee.
 
 ## Composition
 
@@ -81,7 +79,7 @@ Steering Committee members serve for 2-year terms, staggered to preserve continu
 
 ### Timeline
 
-Steering Committee elections are held annually, aiming to seat new members in __TODO__. Six weeks or more before the election, the Steering Committee will appoint [Election Officer(s)](#election-officers).
+Steering Committee elections are held annually, aiming to seat new members in March. Six weeks or more before the election, the Steering Committee will appoint [Election Officer(s)](#election-officers).
 Four weeks or more before the election, the Election Officer(s) will issue a call for nominations and publish the list of eligible voters.
 
 Seven days before the election, the call for nominations will be closed. The election will be open for voting for no less than two weeks and no more than four weeks. The election results will be announced within one week of the election closing.
