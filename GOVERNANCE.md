@@ -148,7 +148,7 @@ Members need to be and stay active to set an example and show commitment to the 
   * Periods of no contributions for longer than 6 months
   * Not having 20 contributions in the preceding 12-month window for more than 6 months
 
-* Consequences of being inactive include
+* Consequences of being inactive may include
   * Involuntary removal or demotion
   * Being asked to move to Emeritus status
 

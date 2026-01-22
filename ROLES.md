@@ -18,7 +18,7 @@ Description: A Contributor contributes directly to the project and adds value to
   * Contribute to the documentation
   * Participate in dev summits or workgroup meetings
   * Answer questions from other community members
-  * Help test releases
+  * Help to test new releases
   * Run or help run events
   * Promote the project in public
   * Help run the project infrastructure
@@ -74,7 +74,7 @@ Maintainer status is scoped to a repository or a part of the codebase.
 A Maintainer must meet the responsibilities and requirements of an Organization Member, plus:
 
 * Responsibilities include
-  * Demonstrate sound technical judgment (maybe asked to step down by a maintainer if they lose the confidence of the other maintainers)
+  * Demonstrate sound technical judgment
   * Responsible for project quality control via code reviews
   * Responsible for technical quality control of the documentation, related to their project
   * Expected to be responsive to review requests
@@ -85,9 +85,7 @@ A Maintainer must meet the responsibilities and requirements of an Organization 
 * Requirements
   * Consistently contributing to the codebase
   * Reviewer for or author of substantial PRs to the codebase, with the definition of substantial subject to the maintainer's discretion (e.g. refactors/adds new functionality rather than one-line pulls).
-  * Demonstrates a broad knowledge of the project across multiple areas
   * Can exercise judgment for the good of the project, independent of their employer, friends, or team
-  * Mentors other contributors
 * Additional privileges
   * Represent the project in public as a Maintainer
   * Have a vote in Maintainer decision-making meetings
@@ -100,6 +98,6 @@ Process of becoming a maintainer:
 
 ## Stepping Down/Emeritus Process
 
-If and when contributors' commitment levels change, contributors can consider stepping down (moving down the contributor ladder) vs moving to emeritus status (completely stepping away from the project).
+If and when contributors' commitment levels change, contributors can consider stepping down (moving down the contributor ladder) or completely stepping away from the project.
 
-Contact the Maintainers about changing to Emeritus status, or reducing your contributor level.
+Contact the Maintainers about changing to Emeritus status and reducing your contributor level.
