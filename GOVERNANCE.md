@@ -107,7 +107,7 @@ Organization members must be eligible to vote to stand for election. Candidates 
 
 ### Voting Procedure
 
-Elections will be held using a ranked choice voting system which supports voter privacy. Specific voter tooling will be selected by the Election Officers before the election starts, with this selection to be approved by the Steering Committee. The top vote-getters will be elected to the open seats, with the exceptions for company representation discussed below.
+Elections will be held using the condorcet voting method. Specific voter tooling will be selected by the Election Officers before the election starts, with this selection to be approved by the Steering Committee. The top vote-getters will be elected to the open seats, with the exceptions for company representation discussed below.
 
 ### Limitations on Company Representation
 
@@ -163,8 +163,9 @@ Involuntary removal or demotion of Maintainers or Steering Committee members is 
 ## Contact
 
 For inquiries, please reach out to:  
-* [the governance repository](https://github.com/prometheus/governance/issues): Governance Repo Issues  
-* [prometheus-steering@googlegroups.com](mailto:prometheus-steering@googlegroups.com): Steering Committee Email
+
+* Public inquiries to the governance repo: https://github.com/prometheus/governance/issues
+* Private inquiries to the Steering Committee Email: [prometheus-steering@googlegroups.com](mailto:prometheus-steering@googlegroups.com)
 
 ## Migrating from the old governance
 
