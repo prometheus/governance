@@ -8,7 +8,9 @@ The Prometheus Steering Committee is the governing body of the Prometheus projec
 
 ## Values
 
-The Prometheus developers and community are expected to follow the values defined in the [CNCF charter](https://www.cncf.io/about/charter/), including the [CNCF Code of Conduct](https://github.com/cncf/foundation/blob/master/code-of-conduct.md). Furthermore, the Prometheus community strives for kindness, effective feedback, and a welcoming environment. The Prometheus developers default to decision by consensus and only fall back to voting if consensus cannot be reached.
+The Prometheus developers and community are expected to follow the values defined in the [CNCF charter](https://www.cncf.io/about/charter/), including the [CNCF Code of Conduct](https://github.com/cncf/foundation/blob/master/code-of-conduct.md). Furthermore, the Prometheus community strives for kindness, effective feedback, and a welcoming environment. 
+
+The Prometheus developers default to decision by consensus and only fall back to voting if consensus cannot be reached.
 
 ## Roles
 
@@ -107,7 +109,7 @@ Organization members must be eligible to vote to stand for election. Candidates 
 
 ### Voting Procedure
 
-Elections will be held using the condorcet voting method. Specific voter tooling will be selected by the Election Officers before the election starts, with this selection to be approved by the Steering Committee. The top vote-getters will be elected to the open seats, with the exceptions for company representation discussed below.
+Elections will be held using a ranking Condorcet voting method picked by the Election Officers. Specific voter tooling will be selected by the Election Officers before the election starts, with this selection to be approved by the Steering Committee. The top vote-getters will be elected to the open seats, with the exceptions for company representation discussed below.
 
 ### Limitations on Company Representation
 

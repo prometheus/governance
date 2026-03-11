@@ -81,20 +81,20 @@ A Maintainer must meet the responsibilities and requirements of an Organization 
   * Mentoring new contributors
   * Determining strategy and policy for the project
   * Participating in, and leading, community meetings
-  * May merge PRs
+  * May merge PRs affecting the code they are Maintainers for
 * Requirements
   * Consistently contributing to the codebase
   * Reviewer for or author of substantial PRs to the codebase, with the definition of substantial subject to the maintainer's discretion (e.g. refactors/adds new functionality rather than one-line pulls).
   * Can exercise judgment for the good of the project, independent of their employer, friends, or team
 * Additional privileges
   * Represent the project in public as a Maintainer
-  * Have a vote in Maintainer decision-making meetings
+  * Take part in Maintainer decision-making
 
 Process of becoming a maintainer:
 
 1. Any current Maintainer may nominate a current Member to become a new Maintainer, by opening a PR by adding them to the `MAINTAINERS.md` file.
 2. The nominee will add a comment to the PR testifying that they agree to all requirements of becoming a Maintainer.
-3. None of the other maintainers of the repository must object.
+3. None of the other maintainers of the relevant repository or part of the code base must object.
 
 ## Stepping Down/Emeritus Process
 
