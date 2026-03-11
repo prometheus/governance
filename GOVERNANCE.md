@@ -2,9 +2,9 @@
 
 This document describes the rules and governance of the Prometheus project. It is meant to be followed by all the developers of the project and the Prometheus community. This governance is an open, living document, and will continue to evolve as the community and project change.
 
-It outlines the Steering Committee's roles and responsibilities, the decision-making process, and the election procedures for committee members. It also details the contributor ladder, including the roles of Contributor, Member, and Maintainer, along with the requirements and privileges associated with each.
+It outlines the Steering Committee’s roles and responsibilities, the decision-making process, and the election procedures for committee members. It also details the contributor ladder, including the roles of Contributor, Member, and Maintainer, along with the requirements and privileges associated with each.
 
-The Prometheus Steering Committee is the governing body of the Prometheus project, providing decision-making and oversight pertaining to the project by-laws, GitHub organizations[^1], and financial planning. The Steering Committee also defines the project values and structure.
+The Prometheus Steering Committee is the governing body of the Prometheus project, providing decision-making and oversight pertaining to the project bylaws, GitHub organizations[^1], and financial planning. The Steering Committee also defines the project values and structure.
 
 ## Values
 
@@ -14,18 +14,18 @@ The Prometheus developers default to decision by consensus and only fall back to
 
 ## Roles
 
-We have a contributor ladder that includes the roles of Contributor, Member, Maintainer, and Steering Committee. The Steering Committee responsibilities and elections are outlined below. The remaining roles are detailed in [ROLES.md](./ROLES.md).
+We have a contributor ladder that includes the roles of Contributor, Member, and Maintainer. The Steering Committee responsibilities and elections are outlined below. The remaining roles are detailed in [ROLES.md](./ROLES.md).
 
 ## Charter
 
 The Steering Committee has the following responsibilities and powers.
 
-* Define, evolve, and promote the project's vision, values, and mission.
+* Define, evolve, and promote the project’s vision, values, and mission.
 * Define and evolve project governance structures and policies, including project roles and how collaborators adopt these roles. This includes policy for the creation and administration of working groups and committees.
 * Steward, control access, delegate access, and establish processes for all Prometheus project resources, with the final say in their disposition.
 * Coordinate with the LF and the CNCF regarding usage of the Prometheus trademark and how that trademark can be used in relation to and with other efforts, projects, or vendors.
 * Receive and handle reports about Code of Conduct violations while maintaining confidentiality.
-* Act as the final escalation point and resolve any disputes, issues, clarifications or escalations within the project scope.
+* Act as the final escalation point and resolve any disputes, issues, clarifications, or escalations within the project scope.
 * Have “owners” role for the project’s GitHub organizations[^1].
 * Ultimate responsibility for all key project functions, unless delegated to a team. For example, vulnerability and security report handling, or GitHub administration.
 
@@ -69,7 +69,7 @@ There are two ways to raise issues to the Steering Committee for decision:
 
 1. The Steering Committee can be reached privately by emailing [prometheus-steering@googlegroups.com](mailto:prometheus-steering@googlegroups.com). This group is a private discussion list to which all committee members have access.
   * If you want to report a Code of Conduct violation against a Steering Committee member, please report it to the CNCF at `conduct@cncf.io` following the [reporting process](https://github.com/cncf/foundation/blob/main/code-of-conduct/coc-incident-resolution-procedures.md#how-to-submit-a-report).
-1. The Steering Committee can be reached publicly by opening an issue in [the governance repository](https://github.com/prometheus/governance/issues) and indicating that you would like the Steering Committee's attention.
+1. The Steering Committee can be reached publicly by opening an issue in [the governance repository](https://github.com/prometheus/governance/issues) and indicating that you would like the Steering Committee’s attention.
 
 ## Composition
 
@@ -81,10 +81,10 @@ Steering Committee members serve for 2-year terms, staggered to preserve continu
 
 ### Timeline
 
-Steering Committee elections are held annually, with new members seated in March. Six weeks or more before the election, the Steering Committee will appoint [Election Officer(s)](#election-officers.)
+Steering Committee elections are held annually, with new members seated in March. Six weeks or more before the election, the Steering Committee will appoint [Election Officer(s)](#election-officers).
 Four weeks or more before the election, the Election Officer(s) will issue a call for nominations and publish the list of eligible voters.
 
-Seven days before the election, the call for nominations will be closed. The election will be open for voting for no less than two weeks and no more than four weeks. The election results will be announced within one week of the election closing.
+Seven days before the election, the nomination period will close. The election will be open for voting for no less than two weeks and no more than four weeks. The election results will be announced within one week of the election closing.
 
 ### Election Officers
 
@@ -110,7 +110,7 @@ Organization members must be eligible to vote to stand for election. Candidates 
 
 ### Voting Procedure
 
-Elections will be held using a ranking Condorcet voting method picked by the Election Officers. Specific voter tooling will be selected by the Election Officers before the election starts, and the selection will be approved by the Steering Committee. The top vote-getters will be elected to the open seats, with the exceptions for company representation discussed below.
+Elections will be held using a ranking Condorcet voting method picked by the Election Officers. The Election Officers will select specific voter tooling. The Steering Committee must approve the tool selected by the Election Officers before the election starts. The top vote-getters will be elected to the open seats, with the exceptions for company representation discussed below.
 
 ### Limitations on Company Representation
 
@@ -147,13 +147,12 @@ Note that if the Steering Committee is regularly called to resolve contested dec
 
 Members need to be and stay active to set an example and show commitment to the project. Inactivity is harmful to the project, as it may lead to unexpected delays, contributor attrition, and a loss of trust.
 
-* Inactivity is measured by
-  * Periods of no [contributions](ROLES.md#contributor) for longer than 6 months
-  * Not having 20 contributions in the preceding 12-month window for more than 6 months
-
-* Consequences of being inactive may include
-  * Involuntary removal or demotion
-  * Being asked to move to Emeritus status
+* Inactivity is measured by:
+  * Periods of no [contributions](ROLES.md#contributor) for longer than 6 months.
+  * Not having 20 contributions in the preceding 12-month window for more than 6 months.
+* Consequences of being inactive may include:
+  * Involuntary removal or demotion.
+  * Being asked to move to Emeritus status.
 
 For maintainers of mature or stable projects that require little to no maintenance, the Steering Committee can grant exceptions.
 
@@ -161,7 +160,7 @@ For maintainers of mature or stable projects that require little to no maintenan
 
 Involuntary removal/demotion of a contributor happens when responsibilities and requirements aren’t being met. This may include repeated or extended periods of inactivity, failure to meet the requirements of the assigned role, and/or a violation of the Code of Conduct. This process is important because it protects the community and its deliverables while also opening up opportunities for new contributors to step in.
 
-Involuntary removal or demotion of Maintainers or Steering Committee members is handled by a majority vote of the current Steering Committee. If this pertains to a Steering Committee member, that member is not eligible to discuss or vote on the matter.
+A majority vote of the current Steering Committee handles involuntary removal or demotion of Maintainers or Steering Committee members. If this pertains to a Steering Committee member, that member is not eligible to discuss or vote on the matter.
 
 ## Contact
 
