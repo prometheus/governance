@@ -1,12 +1,10 @@
-# ROLES.md
+# Prometheus Community Roles
 
-## Contributor Ladder
-
-Hello! We are excited that you want to learn more about our project contributor ladder! This contributor ladder outlines the different contributor roles within the project, along with the responsibilities and privileges associated with each. Community members generally start at the first levels of the “ladder” and advance up it as their involvement in the project grows. Our project members are happy to help you advance along the contributor ladder.
-
-Each contributor role below is organized into lists of three types of things. “Responsibilities” are things that a contributor is expected to do. “Requirements” are qualifications a person needs to meet to be in that role, and “Privileges” are things contributors on that level are entitled to.
+This document describes the Prometheus contributor ladder. It defines the roles within the project, together with the responsibilities, requirements, and privileges associated with each role. In doing so, it also implicitly describes how contributors grow their participation in the project over time.
 
 Being at a “higher” level on the ladder includes the “lower” levels; e.g., if you are a Maintainer, you are also considered a Member. If you are a Member, you are also considered a Contributor and have the privileges and responsibilities of all the lower levels.
+
+The contributor ladder covers roles that are assessed based on a contributor's demonstrated participation and the documented expectations for that role. It does not cover elected governance roles such as the Steering Committee; those are documented separately in [GOVERNANCE.md](./GOVERNANCE.md), since they are filled through the project's election process rather than by advancement through the ladder.
 
 ### Contributor
 
