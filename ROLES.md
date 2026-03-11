@@ -2,15 +2,15 @@
 
 ## Contributor Ladder
 
-Hello! We are excited that you want to learn more about our project contributor ladder! This contributor ladder outlines the different contributor roles within the project, along with the responsibilities and privileges that come with them. Community members generally start at the first levels of the "ladder" and advance up it as their involvement in the project grows. Our project members are happy to help you advance along the contributor ladder.
+Hello! We are excited that you want to learn more about our project contributor ladder! This contributor ladder outlines the different contributor roles within the project, along with the responsibilities and privileges associated with each. Community members generally start at the first levels of the “ladder” and advance up it as their involvement in the project grows. Our project members are happy to help you advance along the contributor ladder.
 
-Each of the contributor roles below is organized into lists of three types of things. "Responsibilities" are things that a contributor is expected to do. "Requirements" are qualifications a person needs to meet to be in that role, and "Privileges" are things contributors on that level are entitled to. 
+Each contributor role below is organized into lists of three types of things. “Responsibilities” are things that a contributor is expected to do. “Requirements” are qualifications a person needs to meet to be in that role, and “Privileges” are things contributors on that level are entitled to.
 
-Being in a "higher" level on the ladder includes the "lower" levels, e.g. if you are a Maintainer, you are also considered a Member. If you are a Member, you are also considered a Contributor and have the privileges and responsibilities of all the lower levels.
+Being at a “higher” level on the ladder includes the “lower” levels; e.g., if you are a Maintainer, you are also considered a Member. If you are a Member, you are also considered a Contributor and have the privileges and responsibilities of all the lower levels.
 
 ### Contributor
 
-Description: A Contributor contributes directly to the project and adds value to it. Contributions do not need to be code. People at the Contributor level may be new contributors, or they may only contribute occasionally.
+Description: A Contributor contributes directly to the project and adds value to it. Contributions do not need to be code. People at the Contributor level may be new contributors or contribute only occasionally.
 
 * Qualifying Contributions
   * Report, triage, work on, or resolve issues via comments
@@ -36,12 +36,12 @@ A Member must meet the responsibilities and has the requirements of a Contributo
 
 * Responsibilities include
   * Continuing to contribute regularly.
-	  * This can be demonstrated by having at least 20 GitHub contributions a year in [DevStats](https://devstats.cncf.io/).
-	  * We encourage non-code contributions like attending and contributing to dev summit and workgroup meetings, organizing and running activities within the Prometheus community, etc.
+    * This can be demonstrated by having at least 20 GitHub contributions a year in [DevStats](https://devstats.cncf.io/).
+    * Or non-code contributions like attending and contributing to dev summit and workgroup meetings, organizing and running activities within the Prometheus community, etc.
 
 * Requirements
-  * Must meet the requirements of a Contributor and have atleast 20 qualifying contributions in the past year
-  * Must have two or more Maintainers as sponsors. At least one sponsor must have a different employer than the applying Contributor
+  * Must meet the requirements of a Contributor and have at least 20 qualifying contributions in the past year
+  * Must have at least 2 Maintainers as sponsors. At least one sponsor must have a different employer from the applying Contributor
   * Must enable 2FA on their GitHub account
 
 * Privileges
@@ -55,18 +55,18 @@ A Member must meet the responsibilities and has the requirements of a Contributo
 
 The process for a Contributor to become a Member is as follows:
 
-1. Open an GitHub Issue against the [prometheus/governance](https://github.com/prometheus/governance)
-   1. Ensure your sponsors are @mentioned on the issue
-   2. Assign label `membership-application`
-   3. Complete every item on the checklist
-   4. Make sure that the list of contributions included is representative of your work on the project.
+1. Open a GitHub Issue against the [prometheus/governance](https://github.com/prometheus/governance)
+  1. Ensure your sponsors are @mentioned on the issue
+  2. Assign label `membership-application`
+  3. Complete every item on the checklist
+  4. Make sure that the list of contributions included is representative of your work on the project.
 2. Sponsors reply via a comment on the GitHub Issue with explicit confirmation
 3. Once Sponsors have responded positively, the request will be reviewed by the Steering Committee or its delegates to make sure certain contributions are valid and non-trivial.
-4. If the threshold is met, the Contributor is added to [https://github.com/orgs/prometheus](https://github.com/orgs/prometheus)/people and [https://github.com/orgs/prometheus-community/people](https://github.com/orgs/prometheus-community/people) and becomes a Member
+4. If the threshold is met, the Contributor is added to [https://github.com/orgs/prometheus/people](https://github.com/orgs/prometheus/people) and [https://github.com/orgs/prometheus-community/people](https://github.com/orgs/prometheus-community/people) and becomes a Member.
 
 ### Maintainer
 
-Description: Maintainers are well-established contributors who review and approve code contributions. Maintainers are responsible for the long-term health of the project including reviewing PRs, stability, adoption, security, etc.
+Description: Maintainers are well-established contributors who review and approve code contributions. Maintainers are responsible for the long-term health of the project, including reviewing PRs, stability, adoption, security, etc.
 
 Maintainer status is scoped to a repository or a part of the codebase.
 
@@ -75,30 +75,30 @@ A Maintainer must meet the responsibilities and requirements of an Organization 
 * Responsibilities include
   * Demonstrate sound technical judgment
   * Responsible for project quality control via code reviews
-  * Responsible for technical quality control of the documentation, related to their project
+  * Responsible for the technical quality control of the documentation related to their project
   * Expected to be responsive to review requests
   * Mentoring new contributors
   * Determining strategy and policy for the project
-  * Participating in, and leading, community meetings
+  * Participating in and leading community meetings
   * May merge PRs affecting the code they are Maintainers for
 * Requirements
   * Consistently contributing to the codebase
-  * Reviewer for or author of substantial PRs to the codebase, with the definition of substantial subject to the maintainer's discretion (e.g. refactors/adds new functionality rather than one-line pulls).
+  * Reviewer for or author of substantial PRs to the codebase, with the definition of substantial subject to the maintainer’s discretion (e.g., refactors/adds new functionality rather than one-line pulls).
   * Can exercise judgment for the good of the project, independent of their employer, friends, or team
 * Additional privileges
   * Can manage CI and package registry secrets
   * Represent the project in public as a Maintainer
-  * Take part in Maintainer decision-making
+  * Take part in the Maintainer decision-making
 
 Process of becoming a maintainer:
 
-1. Any current Maintainer may nominate a current Member to become a new Maintainer, by opening a PR by adding them to the `MAINTAINERS.md` file.
+1. Any current Maintainer may nominate a current Member to become a new Maintainer by opening a PR, adding them to the `MAINTAINERS.md` file.
   * If the codebase or project has no current maintainers, then the Steering Committee can also nominate new maintainers.
-2. The nominee will add a comment to the PR testifying that they agree to all requirements of becoming a Maintainer.
-3. None of the other maintainers of the relevant repository or part of the code base must object.
+1. The nominee will add a comment to the PR testifying that they agree to all requirements of becoming a Maintainer.
+2. None of the other maintainers of the relevant repository or part of the code base must object.
 
 ## Stepping Down/Emeritus Process
 
-If and when contributors' commitment levels change, contributors can consider stepping down (moving down the contributor ladder) or completely stepping away from the project.
+If and when contributors’ commitment levels change, contributors can consider stepping down (moving down the contributor ladder) or completely stepping away from the project.
 
 Contact the Maintainers about changing to Emeritus status and reducing your contributor level.

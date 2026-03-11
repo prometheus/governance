@@ -8,7 +8,7 @@ The Prometheus Steering Committee is the governing body of the Prometheus projec
 
 ## Values
 
-The Prometheus developers and community are expected to follow the values defined in the [CNCF charter](https://www.cncf.io/about/charter/), including the [CNCF Code of Conduct](https://github.com/cncf/foundation/blob/master/code-of-conduct.md). Furthermore, the Prometheus community strives for kindness, effective feedback, and a welcoming environment. 
+The Prometheus developers and community are expected to follow the values defined in the [CNCF charter](https://www.cncf.io/about/charter/), including the [CNCF Code of Conduct](https://github.com/cncf/foundation/blob/master/code-of-conduct.md). Furthermore, the Prometheus community strives for kindness, effective feedback, and a welcoming environment.
 
 The Prometheus developers default to decision by consensus and only fall back to voting if consensus cannot be reached.
 
@@ -20,18 +20,18 @@ We have a contributor ladder that includes the roles of Contributor, Member, Mai
 
 The Steering Committee has the following responsibilities and powers.
 
-* Define, evolve, and promote the vision, values, and mission of the project.
+* Define, evolve, and promote the project's vision, values, and mission.
 * Define and evolve project governance structures and policies, including project roles and how collaborators adopt these roles. This includes policy for the creation and administration of working groups and committees.
-* Steward, control access, delegate access, and establish processes regarding all Prometheus project resources, having the final say in the disposition of those resources.
+* Steward, control access, delegate access, and establish processes for all Prometheus project resources, with the final say in their disposition.
 * Coordinate with the LF and the CNCF regarding usage of the Prometheus trademark and how that trademark can be used in relation to and with other efforts, projects, or vendors.
 * Receive and handle reports about Code of Conduct violations while maintaining confidentiality.
-* Act as the final escalation point and decide for any disputes, issues, clarifications, or escalations within the project scope.
-* Have "owners" role for the project's GitHub organizations[^1].
+* Act as the final escalation point and resolve any disputes, issues, clarifications or escalations within the project scope.
+* Have “owners” role for the project’s GitHub organizations[^1].
 * Ultimate responsibility for all key project functions, unless delegated to a team. For example, vulnerability and security report handling, or GitHub administration.
 
 ## Committee Meetings
 
-The Steering Committee meets monthly, or as-needed.  
+The Steering Committee meets monthly or as needed.
 Meetings are held online and are public by default (anyone can attend).
 
 Given the private nature of some of these discussions (e.g., privacy, private emails to the committee, code of conduct violations, escalations, disputes between members, security reports, etc.), some meetings are held in private.
@@ -49,19 +49,19 @@ The current membership of the Steering Committee, listed alphabetically by first
 
 ## Decision process
 
-The Steering Committee defaults to deciding by consensus.
+The Steering Committee defaults to a consensus decision.
 
 Decisions requiring a vote include:
-* Issuing written policy
+* Issuing a written policy
 * Amending existing written policy
 * Creating, removing, or modifying a working group
 * All spending, hiring, and contracting
 * Official responses to publicly raised issues
-* Any other decisions that two or more members present agree should be put to a vote
+* Any other decisions that two or more members present agree on should be put to a vote
 
 To pass a decision, it needs approving votes from more than half of the current Steering Committee members.
 
-The votes should be yes / no votes, and a multi-proposal vote should have a vote for each proposal.
+The votes should be yes/no, and a multi-proposal vote should have a vote for each proposal.
 
 ## Getting in touch
 
@@ -69,7 +69,7 @@ There are two ways to raise issues to the Steering Committee for decision:
 
 1. The Steering Committee can be reached privately by emailing [prometheus-steering@googlegroups.com](mailto:prometheus-steering@googlegroups.com). This group is a private discussion list to which all committee members have access.
   * If you want to report a Code of Conduct violation against a Steering Committee member, please report it to the CNCF at `conduct@cncf.io` following the [reporting process](https://github.com/cncf/foundation/blob/main/code-of-conduct/coc-incident-resolution-procedures.md#how-to-submit-a-report).
-1. The Steering Committee can be reached publicly by opening an issue on [the governance repository](https://github.com/prometheus/governance/issues) and indicating that you would like attention from the Steering Committee.
+1. The Steering Committee can be reached publicly by opening an issue in [the governance repository](https://github.com/prometheus/governance/issues) and indicating that you would like the Steering Committee's attention.
 
 ## Composition
 
@@ -81,14 +81,14 @@ Steering Committee members serve for 2-year terms, staggered to preserve continu
 
 ### Timeline
 
-Steering Committee elections are held annually, aiming to seat new members in March. Six weeks or more before the election, the Steering Committee will appoint [Election Officer(s)](#election-officers).
+Steering Committee elections are held annually, with new members seated in March. Six weeks or more before the election, the Steering Committee will appoint [Election Officer(s)](#election-officers.)
 Four weeks or more before the election, the Election Officer(s) will issue a call for nominations and publish the list of eligible voters.
 
 Seven days before the election, the call for nominations will be closed. The election will be open for voting for no less than two weeks and no more than four weeks. The election results will be announced within one week of the election closing.
 
 ### Election Officers
 
-Six weeks or more before the election, the Steering Committee will appoint three Election Officers to administer the election. Election Officers will be Organization Members in good standing who are eligible to vote, are not running for the Steering Committee in that election, are not currently part of the Steering Committee, and can make a public promise of impartiality. 
+Six weeks or more before the election, the Steering Committee will appoint three Election Officers to administer the election. Election Officers will be Organization Members in good standing who are eligible to vote, are not running for the Steering Committee in that election, are not currently part of the Steering Committee, and can make a public promise of impartiality.
 
 They will be responsible for:
 
@@ -102,7 +102,7 @@ They will be responsible for:
 
 Anyone who is an Organization Member as defined in [ROLES.md](./ROLES.md) may vote.
 
-The electoral roll of all eligible voters will be captured at [elections](./elections/) and the voters' guide will be captured at [voters guide](./elections/).
+The electoral roll of all eligible voters will be captured at [elections](./elections/), and the voters’ guide will be captured at the [voters' guide](./elections/).
 
 ### Candidate Eligibility
 
@@ -110,11 +110,11 @@ Organization members must be eligible to vote to stand for election. Candidates 
 
 ### Voting Procedure
 
-Elections will be held using a ranking Condorcet voting method picked by the Election Officers. Specific voter tooling will be selected by the Election Officers before the election starts, with this selection to be approved by the Steering Committee. The top vote-getters will be elected to the open seats, with the exceptions for company representation discussed below.
+Elections will be held using a ranking Condorcet voting method picked by the Election Officers. Specific voter tooling will be selected by the Election Officers before the election starts, and the selection will be approved by the Steering Committee. The top vote-getters will be elected to the open seats, with the exceptions for company representation discussed below.
 
 ### Limitations on Company Representation
 
-No more than 2 seats may be held by employees or contractors of the same organization (or  
+No more than 2 seats may be held by employees or contractors of the same organization (or
 conglomerate, in the case of companies owning each other). If an election results in more than 2 employees or contractors of the same organization being selected, the lowest vote-getters from any particular employer will be removed until representation on the committee is down to 2.
 
 If affiliations change due to job changes, acquisitions, or other events and would result in more than 2 affiliated individuals serving on the Steering Committee, and the next regular election is more than 10 weeks away, a sufficient number of Steering Committee members must resign. If this does not occur within two weeks, all affiliated individuals from that set are removed and backfilled through normal backfill mechanisms.
@@ -137,11 +137,11 @@ Proposals and amendments to the charter are available for at least 2 weeks for c
 
 ## Authority, Facilitation, and Decision-Making
 
-Ideally, most decisions will be made at the lowest possible level within the project: within individual working groups. When this is not possible, the Steering Committee can help facilitate a conversation to work through the contested issue. When the Steering Committee's facilitation does not resolve the contention, the Steering Committee may have to decide.
+Ideally, most decisions will be made at the lowest possible level within the project: within individual working groups. When this is not possible, the Steering Committee can help facilitate a conversation to work through the contested issue. When the Steering Committee’s facilitation does not resolve the contention, the Steering Committee may have to decide.
 
-For example, technical governance is expected to be performed by the Maintainers of the various project areas and subprojects, as defined in the appropriate OWNERS / MAINTAINERS files.
+For example, technical governance is expected to be carried out by the Maintainers of the various project areas and subprojects, as defined in the appropriate OWNERS/MAINTAINERS files.
 
-Note that if the Steering Committee is regularly called to resolve contested decisions, it is a symptom of a larger problem in the community that will need to be addressed.
+Note that if the Steering Committee is regularly called to resolve contested decisions, it is a symptom of a larger problem in the community that must be addressed.
 
 ## Inactivity
 
@@ -159,27 +159,25 @@ For maintainers of mature or stable projects that require little to no maintenan
 
 ## Involuntary Removal or Demotion
 
-Involuntary removal/demotion of a contributor happens when responsibilities and requirements aren't being met. This may include repeated patterns of inactivity, extended periods of inactivity, a period of failing to meet the requirements of the assigned role, and/or a violation of the Code of Conduct. This process is important because it protects the community and its deliverables while also opening up opportunities for new contributors to step in.
+Involuntary removal/demotion of a contributor happens when responsibilities and requirements aren’t being met. This may include repeated or extended periods of inactivity, failure to meet the requirements of the assigned role, and/or a violation of the Code of Conduct. This process is important because it protects the community and its deliverables while also opening up opportunities for new contributors to step in.
 
 Involuntary removal or demotion of Maintainers or Steering Committee members is handled by a majority vote of the current Steering Committee. If this pertains to a Steering Committee member, that member is not eligible to discuss or vote on the matter.
 
 ## Contact
 
-For inquiries, please reach out to:  
+For inquiries, please reach out to:
 
-* Public inquiries to the governance repo: https://github.com/prometheus/governance/issues
+* Public inquiries to the governance repo: [https://github.com/prometheus/governance/issues](https://github.com/prometheus/governance/issues)
 * Private inquiries to the Steering Committee Email: [prometheus-steering@googlegroups.com](mailto:prometheus-steering@googlegroups.com)
 
 ## Migrating from the old governance
 
-All current Prometheus team members become members as per the new governance. 
+All current Prometheus team members become members as per the new governance.
 
-The individual projects already define who a maintainer is for which specific project in their corresponding MAINTAINERS.md. People listed in these files will therefore be maintainers. This includes all the GitHub organizations[^1].
+The individual projects already define who a maintainer is for each specific project in their corresponding MAINTAINERS.md files. People listed in these files will therefore be maintainers. This includes all the GitHub organizations[^1].
 
 The initial list of eligible voters might include members and maintainers who are inactive according to [our requirements](#inactivity). This is OK, and they can still participate in the vote for the Bootstrap Steering Committee.
 
-The existing Prometheus team will hold votes, as described in the new governance, to elect a Bootstrap Steering Committee of 7 members, with the 3 highest-voted members serving 2-year terms and the next 4 serving 1-year terms.  
-
+The existing Prometheus team will hold votes, as described in the new governance, to elect a Bootstrap Steering Committee of 7 members: the 3 highest-voted members will serve 2-year terms, and the next 4 will serve 1-year terms.
 
 [^1]:	[github.com/prometheus](http://github.com/prometheus), [github.com/prometheus-community](http://github.com/prometheus-community), [github.com/promcon](http://github.com/promcon)
-
