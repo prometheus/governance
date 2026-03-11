@@ -148,7 +148,7 @@ Note that if the Steering Committee is regularly called to resolve contested dec
 Members need to be and stay active to set an example and show commitment to the project. Inactivity is harmful to the project, as it may lead to unexpected delays, contributor attrition, and a loss of trust.
 
 * Inactivity is measured by
-  * Periods of no contributions for longer than 6 months
+  * Periods of no [contributions](ROLES.md#contributor) for longer than 6 months
   * Not having 20 contributions in the preceding 12-month window for more than 6 months
 
 * Consequences of being inactive may include
