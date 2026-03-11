@@ -93,7 +93,7 @@ Process of becoming a maintainer:
 1. Any current Maintainer may nominate a current Member to become a new Maintainer by opening a PR, adding them to the `MAINTAINERS.md` file.
   * If the codebase or project has no current maintainers, then the Steering Committee can also nominate new maintainers.
 1. The nominee will add a comment to the PR testifying that they agree to all requirements of becoming a Maintainer.
-2. None of the other maintainers of the relevant repository or part of the code base must object.
+2. If any other Maintainer of the relevant repository or part of the code base objects, the nomination does not pass.
 
 ## Stepping Down/Emeritus Process
 
