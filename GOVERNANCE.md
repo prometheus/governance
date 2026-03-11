@@ -93,6 +93,7 @@ Six weeks or more before the election, the Steering Committee will appoint three
 They will be responsible for:
 
 * Making all announcements associated with the election
+  * In the [prometheus-developers](https://groups.google.com/g/prometheus-developers) and [prometheus-users](https://groups.google.com/g/prometheus-users) mailing lists, and other places.
 * Preparing and distributing electronic ballots
 * Assisting candidates in preparing and sharing statements
 * Tallying voting results according to the rules in this governance
@@ -105,7 +106,7 @@ The electoral roll of all eligible voters will be captured at [elections](./elec
 
 ### Candidate Eligibility
 
-Organization members must be eligible to vote to stand for election. Candidates should self-nominate. There are no term limits for Steering Committee members.
+Organization members must be eligible to vote to stand for election. Candidates must self-nominate. There are no term limits for Steering Committee members.
 
 ### Voting Procedure
 
@@ -113,8 +114,8 @@ Elections will be held using a ranking Condorcet voting method picked by the Ele
 
 ### Limitations on Company Representation
 
-No more than 2 seats may be held by employees of the same organization (or  
-conglomerate, in the case of companies owning each other). If an election results in more than 2 employees of the same organization being selected, the lowest vote-getters from any particular employer will be removed until representation on the committee is down to 2.
+No more than 2 seats may be held by employees or contractors of the same organization (or  
+conglomerate, in the case of companies owning each other). If an election results in more than 2 employees or contractors of the same organization being selected, the lowest vote-getters from any particular employer will be removed until representation on the committee is down to 2.
 
 If affiliations change due to job changes, acquisitions, or other events and would result in more than 2 affiliated individuals serving on the Steering Committee, and the next regular election is more than 10 weeks away, a sufficient number of Steering Committee members must resign. If this does not occur within two weeks, all affiliated individuals from that set are removed and backfilled through normal backfill mechanisms.
 
