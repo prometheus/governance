@@ -81,8 +81,8 @@ Steering Committee members serve for 2-year terms, staggered to preserve continu
 
 ### Timeline
 
-Steering Committee elections are held annually, with new members seated in March. Six weeks or more before the election, the Steering Committee will appoint [Election Officer(s)](#election-officers).
-Four weeks or more before the election, the Election Officer(s) will issue a call for nominations and publish the list of eligible voters.
+Steering Committee elections are held annually, with new members seated in March. Six weeks or more before the election, the Steering Committee will appoint [Election Officers](#election-officers).
+Four weeks or more before the election, the Election Officers will issue a call for nominations and publish the list of eligible voters.
 
 Seven days before the election, the nomination period will close. The election will be open for voting for no less than two weeks and no more than four weeks. The election results will be announced within one week of the election closing.
 
