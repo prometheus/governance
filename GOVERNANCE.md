@@ -177,6 +177,8 @@ The individual projects already define who a maintainer is for each specific pro
 
 The initial list of eligible voters might include members and maintainers who are inactive according to [our requirements](#inactivity). This is OK, and they can still participate in the vote for the Bootstrap Steering Committee.
 
-The existing Prometheus team will hold votes, as described in the new governance, to elect a Bootstrap Steering Committee of 7 members: the 3 highest-voted members will serve 2-year terms, and the next 4 will serve 1-year terms.
+The existing Prometheus team members and the existing maintainers will elect a Bootstrap Steering Committee of 7 members, as described in the new governance. The 3 highest-voted members will serve 2-year terms, and the next 4 will serve 1-year terms. The Election Officers for this election are picked by the existing Prometheus team members.
+
+The new governance will come into effect once the Bootstrap Steering Committee is elected.
 
 [^1]:	[github.com/prometheus](http://github.com/prometheus), [github.com/prometheus-community](http://github.com/prometheus-community), [github.com/promcon](http://github.com/promcon)
