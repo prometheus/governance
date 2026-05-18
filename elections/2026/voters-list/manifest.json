@@ -1,0 +1,379 @@
+[
+  {
+    "org": "prometheus",
+    "type": "org_members",
+    "count": 71,
+    "fetched_at": "2026-04-30T08:47:28Z"
+  },
+  {
+    "org": "prometheus-community",
+    "type": "org_members",
+    "count": 119,
+    "fetched_at": "2026-04-30T08:47:29Z"
+  },
+  {
+    "org": "prometheus",
+    "repo": "prometheus",
+    "type": "direct_collaborators",
+    "count": 6,
+    "fetched_at": "2026-04-30T08:47:30Z"
+  },
+  {
+    "org": "prometheus",
+    "repo": "client_golang",
+    "type": "direct_collaborators",
+    "count": 1,
+    "fetched_at": "2026-04-30T08:47:30Z"
+  },
+  {
+    "org": "prometheus",
+    "repo": "client_java",
+    "type": "direct_collaborators",
+    "count": 5,
+    "fetched_at": "2026-04-30T08:47:31Z"
+  },
+  {
+    "org": "prometheus",
+    "repo": "client_ruby",
+    "type": "direct_collaborators",
+    "count": 2,
+    "fetched_at": "2026-04-30T08:47:31Z"
+  },
+  {
+    "org": "prometheus",
+    "repo": "statsd_exporter",
+    "type": "direct_collaborators",
+    "count": 1,
+    "fetched_at": "2026-04-30T08:47:32Z"
+  },
+  {
+    "org": "prometheus",
+    "repo": "alertmanager",
+    "type": "direct_collaborators",
+    "count": 1,
+    "fetched_at": "2026-04-30T08:47:32Z"
+  },
+  {
+    "org": "prometheus",
+    "repo": "jmx_exporter",
+    "type": "direct_collaborators",
+    "count": 4,
+    "fetched_at": "2026-04-30T08:47:33Z"
+  },
+  {
+    "org": "prometheus",
+    "repo": "procfs",
+    "type": "direct_collaborators",
+    "count": 1,
+    "fetched_at": "2026-04-30T08:47:34Z"
+  },
+  {
+    "org": "prometheus",
+    "repo": "snmp_exporter",
+    "type": "direct_collaborators",
+    "count": 1,
+    "fetched_at": "2026-04-30T08:47:35Z"
+  },
+  {
+    "org": "prometheus",
+    "repo": "blackbox_exporter",
+    "type": "direct_collaborators",
+    "count": 1,
+    "fetched_at": "2026-04-30T08:47:37Z"
+  },
+  {
+    "org": "prometheus",
+    "repo": "prometheus_api_client_ruby",
+    "type": "direct_collaborators",
+    "count": 1,
+    "fetched_at": "2026-04-30T08:47:40Z"
+  },
+  {
+    "org": "prometheus",
+    "repo": "talks",
+    "type": "direct_collaborators",
+    "count": 1,
+    "fetched_at": "2026-04-30T08:47:40Z"
+  },
+  {
+    "org": "prometheus",
+    "repo": "demo-site",
+    "type": "direct_collaborators",
+    "count": 2,
+    "fetched_at": "2026-04-30T08:47:41Z"
+  },
+  {
+    "org": "prometheus",
+    "repo": "circleci",
+    "type": "direct_collaborators",
+    "count": 1,
+    "fetched_at": "2026-04-30T08:47:41Z"
+  },
+  {
+    "org": "prometheus",
+    "repo": "client_rust",
+    "type": "direct_collaborators",
+    "count": 1,
+    "fetched_at": "2026-04-30T08:47:42Z"
+  },
+  {
+    "org": "prometheus",
+    "repo": "compliance",
+    "type": "direct_collaborators",
+    "count": 1,
+    "fetched_at": "2026-04-30T08:47:43Z"
+  },
+  {
+    "org": "prometheus",
+    "repo": "proposals",
+    "type": "direct_collaborators",
+    "count": 1,
+    "fetched_at": "2026-04-30T08:47:44Z"
+  },
+  {
+    "org": "prometheus",
+    "repo": "test-sd-ownership",
+    "type": "direct_collaborators",
+    "count": 1,
+    "fetched_at": "2026-04-30T08:47:46Z"
+  },
+  {
+    "org": "prometheus-community",
+    "repo": "elasticsearch_exporter",
+    "type": "direct_collaborators",
+    "count": 5,
+    "fetched_at": "2026-04-30T08:47:49Z"
+  },
+  {
+    "org": "prometheus-community",
+    "repo": "postgres_exporter",
+    "type": "direct_collaborators",
+    "count": 1,
+    "fetched_at": "2026-04-30T08:47:49Z"
+  },
+  {
+    "org": "prometheus-community",
+    "repo": "bind_exporter",
+    "type": "direct_collaborators",
+    "count": 1,
+    "fetched_at": "2026-04-30T08:47:49Z"
+  },
+  {
+    "org": "prometheus-community",
+    "repo": "json_exporter",
+    "type": "direct_collaborators",
+    "count": 1,
+    "fetched_at": "2026-04-30T08:47:50Z"
+  },
+  {
+    "org": "prometheus-community",
+    "repo": "windows_exporter",
+    "type": "direct_collaborators",
+    "count": 3,
+    "fetched_at": "2026-04-30T08:47:50Z"
+  },
+  {
+    "org": "prometheus-community",
+    "repo": "kitefactory",
+    "type": "direct_collaborators",
+    "count": 1,
+    "fetched_at": "2026-04-30T08:47:51Z"
+  },
+  {
+    "org": "prometheus-community",
+    "repo": "stackdriver_exporter",
+    "type": "direct_collaborators",
+    "count": 1,
+    "fetched_at": "2026-04-30T08:47:51Z"
+  },
+  {
+    "org": "prometheus-community",
+    "repo": "PushProx",
+    "type": "direct_collaborators",
+    "count": 1,
+    "fetched_at": "2026-04-30T08:47:51Z"
+  },
+  {
+    "org": "prometheus-community",
+    "repo": "yet-another-cloudwatch-exporter",
+    "type": "direct_collaborators",
+    "count": 1,
+    "fetched_at": "2026-04-30T08:47:52Z"
+  },
+  {
+    "org": "prometheus-community",
+    "repo": "pgbouncer_exporter",
+    "type": "direct_collaborators",
+    "count": 1,
+    "fetched_at": "2026-04-30T08:47:52Z"
+  },
+  {
+    "org": "prometheus-community",
+    "repo": "ipmi_exporter",
+    "type": "direct_collaborators",
+    "count": 1,
+    "fetched_at": "2026-04-30T08:47:52Z"
+  },
+  {
+    "org": "prometheus-community",
+    "repo": "avalanche",
+    "type": "direct_collaborators",
+    "count": 2,
+    "fetched_at": "2026-04-30T08:47:53Z"
+  },
+  {
+    "org": "prometheus-community",
+    "repo": "prom-label-proxy",
+    "type": "direct_collaborators",
+    "count": 3,
+    "fetched_at": "2026-04-30T08:47:53Z"
+  },
+  {
+    "org": "prometheus-community",
+    "repo": "prometheus-playground",
+    "type": "direct_collaborators",
+    "count": 1,
+    "fetched_at": "2026-04-30T08:47:53Z"
+  },
+  {
+    "org": "prometheus-community",
+    "repo": "snmp",
+    "type": "direct_collaborators",
+    "count": 1,
+    "fetched_at": "2026-04-30T08:47:54Z"
+  },
+  {
+    "org": "prometheus-community",
+    "repo": "community",
+    "type": "direct_collaborators",
+    "count": 1,
+    "fetched_at": "2026-04-30T08:47:54Z"
+  },
+  {
+    "org": "prometheus-community",
+    "repo": "node-exporter-textfile-collector-scripts",
+    "type": "direct_collaborators",
+    "count": 2,
+    "fetched_at": "2026-04-30T08:47:55Z"
+  },
+  {
+    "org": "prometheus-community",
+    "repo": "smartctl_exporter",
+    "type": "direct_collaborators",
+    "count": 1,
+    "fetched_at": "2026-04-30T08:47:55Z"
+  },
+  {
+    "org": "prometheus-community",
+    "repo": "prometheus",
+    "type": "direct_collaborators",
+    "count": 2,
+    "fetched_at": "2026-04-30T08:47:55Z"
+  },
+  {
+    "org": "prometheus-community",
+    "repo": "promql-langserver",
+    "type": "direct_collaborators",
+    "count": 3,
+    "fetched_at": "2026-04-30T08:47:56Z"
+  },
+  {
+    "org": "prometheus-community",
+    "repo": "vscode-promql",
+    "type": "direct_collaborators",
+    "count": 5,
+    "fetched_at": "2026-04-30T08:47:56Z"
+  },
+  {
+    "org": "prometheus-community",
+    "repo": "rsyslog_exporter",
+    "type": "direct_collaborators",
+    "count": 1,
+    "fetched_at": "2026-04-30T08:47:56Z"
+  },
+  {
+    "org": "prometheus-community",
+    "repo": "monaco-promql",
+    "type": "direct_collaborators",
+    "count": 1,
+    "fetched_at": "2026-04-30T08:47:57Z"
+  },
+  {
+    "org": "prometheus-community",
+    "repo": "fortigate_exporter",
+    "type": "direct_collaborators",
+    "count": 3,
+    "fetched_at": "2026-04-30T08:47:57Z"
+  },
+  {
+    "org": "prometheus-community",
+    "repo": "sublimelsp-promql",
+    "type": "direct_collaborators",
+    "count": 1,
+    "fetched_at": "2026-04-30T08:47:57Z"
+  },
+  {
+    "org": "prometheus-community",
+    "repo": "helm-charts",
+    "type": "direct_collaborators",
+    "count": 1,
+    "fetched_at": "2026-04-30T08:47:58Z"
+  },
+  {
+    "org": "prometheus-community",
+    "repo": "ecs_exporter",
+    "type": "direct_collaborators",
+    "count": 1,
+    "fetched_at": "2026-04-30T08:47:58Z"
+  },
+  {
+    "org": "prometheus-community",
+    "repo": "ansible",
+    "type": "direct_collaborators",
+    "count": 1,
+    "fetched_at": "2026-04-30T08:47:59Z"
+  },
+  {
+    "org": "prometheus-community",
+    "repo": "go-runit",
+    "type": "direct_collaborators",
+    "count": 1,
+    "fetched_at": "2026-04-30T08:47:59Z"
+  },
+  {
+    "org": "prometheus-community",
+    "repo": "ux-research",
+    "type": "direct_collaborators",
+    "count": 3,
+    "fetched_at": "2026-04-30T08:48:00Z"
+  },
+  {
+    "org": "prometheus-community",
+    "repo": "parquet-wg",
+    "type": "direct_collaborators",
+    "count": 2,
+    "fetched_at": "2026-04-30T08:48:00Z"
+  },
+  {
+    "org": "prometheus-community",
+    "repo": "parquet-common",
+    "type": "direct_collaborators",
+    "count": 6,
+    "fetched_at": "2026-04-30T08:48:00Z"
+  },
+  {
+    "org": "prometheus-community",
+    "repo": "highlightjs-promql",
+    "type": "direct_collaborators",
+    "count": 1,
+    "fetched_at": "2026-04-30T08:48:00Z"
+  },
+  {
+    "org": "prometheus-community",
+    "repo": "parmetheus",
+    "type": "direct_collaborators",
+    "count": 1,
+    "fetched_at": "2026-04-30T08:48:01Z"
+  }
+]
+
