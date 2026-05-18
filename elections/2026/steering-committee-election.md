@@ -12,13 +12,13 @@ serve **1-year terms** to establish the staggered cycle.
 
 Election schedule:
 
-* **14 May 2026** — call for nominations opens; voters list published; this
+* **18 May 2026** — call for nominations opens; voters list published; this
   document announced
-* **4 June 2026 23:59 UTC** — final deadline to submit nominations
-* **8 June 2026** — official nominees list published; deadline to request a
+* **8 June 2026 23:59 UTC** — final deadline to submit nominations
+* **12 June 2026** — official nominees list published; deadline to request a
   voter eligibility review
-* **11 June 2026 to 25 June 2026** — voting takes place
-* **2 July 2026** — results announced; new Steering Committee seated;
+* **15 June 2026 to 29 June 2026** — voting takes place
+* **6 July 2026** — results announced; new Steering Committee seated;
   governance comes into effect
 
 We highly encourage participation in this election cycle to ensure that the
@@ -29,13 +29,13 @@ community is well-represented by the Steering Committee.
 * If you are willing to nominate yourself: read the
   [Governance document](../../GOVERNANCE.md) and confirm you are ready for the
   commitment. Submit a candidate page based on the
-  [nomination template](./nomination-template.md) before 4 June 2026 23:59
+  [nomination template](./nomination-template.md) before 8 June 2026 23:59
   UTC.
 * If you are an active community member: confirm that you are on the
   [voters list](./voters-list/write-access.csv), or request a review via
-  [this form](https://forms.gle/tasSbJ9cQdsfj5GV9) before 8 June 2026 23:59
+  [this form](https://forms.gle/tasSbJ9cQdsfj5GV9) before 12 June 2026 23:59
   UTC if you believe you should be eligible but are not listed.
-* Vote between 11 June 2026 and 25 June 2026 23:59 UTC using the link the
+* Vote between 15 June 2026 and 29 June 2026 23:59 UTC using the link the
   Election Officers will send to eligible voters.
 * Keep being awesome and contributing to the project!
 
@@ -96,7 +96,7 @@ To nominate yourself, copy [`nomination-template.md`](./nomination-template.md)
 to `candidate-<githubid>.md` in this directory, fill it out, and submit it as
 a Pull Request to the
 [prometheus/governance](https://github.com/prometheus/governance) repository
-before **4 June 2026 23:59 UTC**.
+before **8 June 2026 23:59 UTC**.
 
 The template asks for:
 
@@ -143,7 +143,7 @@ still participate in this vote.
 If you believe you should be eligible to vote but are not on the list,
 please submit an eligibility review request via this form:
 [https://forms.gle/tasSbJ9cQdsfj5GV9](https://forms.gle/tasSbJ9cQdsfj5GV9),
-before **8 June 2026 23:59 UTC**. Eligibility review requests are private;
+before **12 June 2026 23:59 UTC**. Eligibility review requests are private;
 only the Election Officers will have access to this information.
 
 # Vote
@@ -166,7 +166,7 @@ individual's vote.
 
 # Results
 
-Voting will close at **25 June 2026 23:59 UTC**. The Election Officers will
+Voting will close at **29 June 2026 23:59 UTC**. The Election Officers will
 publish the full CIVS results, then apply the company-representation cap.
 
 Per the
@@ -184,7 +184,7 @@ Once the 7-seat slate is finalized:
 * The **next 4** serve **1-year terms** (through the regular 2027 election
   cycle).
 
-Results will be announced by **2 July 2026** (within 1 week of voting close).
+Results will be announced by **6 July 2026** (within 1 week of voting close).
 On that date the new Steering Committee is seated, the
 [Committee members](../../GOVERNANCE.md#committee-members) table in
 GOVERNANCE.md will be filled in by PR, and the new governance comes into
@@ -194,9 +194,9 @@ effect.
 
 | Date                       | Activity                                                                                                                                       |
 |----------------------------|------------------------------------------------------------------------------------------------------------------------------------------------|
-| 14 May 2026                | This document announced; call for nominations opens; voters list published; announced via [prometheus-developers](https://groups.google.com/g/prometheus-developers) and [prometheus-users](https://groups.google.com/g/prometheus-users) |
-| 4 June 2026 23:59 UTC      | End of call for nominations                                                                                                                    |
-| 8 June 2026                | List of nominees finalized and announced; deadline to request a voter eligibility review                                                       |
-| 11 June 2026               | Voting period begins (CIVS links sent)                                                                                                         |
-| 25 June 2026 23:59 UTC     | Voting ends                                                                                                                                    |
-| 2 July 2026                | Results announced; new Steering Committee seated; governance comes into effect                                                                 |
+| 18 May 2026                | This document announced; call for nominations opens; voters list published; announced via [prometheus-developers](https://groups.google.com/g/prometheus-developers) and [prometheus-users](https://groups.google.com/g/prometheus-users) |
+| 8 June 2026 23:59 UTC      | End of call for nominations                                                                                                                    |
+| 12 June 2026               | List of nominees finalized and announced; deadline to request a voter eligibility review                                                       |
+| 15 June 2026               | Voting period begins (CIVS links sent)                                                                                                         |
+| 29 June 2026 23:59 UTC     | Voting ends                                                                                                                                    |
+| 6 July 2026                | Results announced; new Steering Committee seated; governance comes into effect                                                                 |
