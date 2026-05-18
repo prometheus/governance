@@ -30,9 +30,8 @@ Reminders, per https://github.com/prometheus/governance/blob/main/GOVERNANCE.md:
 ## Teams
 
 <!--
-List the Prometheus teams and sub-projects you are a member of, and your role
-(member, maintainer, team lead). See https://prometheus.io/community/ and the
-team files under https://github.com/prometheus/docs.
+List the Prometheus sub-projects you are a member of, and your role
+(member, maintainer).
 -->
 
 -
