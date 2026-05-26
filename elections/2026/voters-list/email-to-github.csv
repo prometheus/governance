@@ -1,0 +1,17 @@
+# Mapping from maintainer email -> GitHub login.
+#
+# Some MAINTAINERS files list a person by name and email only (no @handle), or
+# with a handle that doesn't resolve. This file maps such emails to the correct
+# GitHub login so the maintainer is matched against the write-access set instead
+# of landing in maintainers-without-write-access.csv.
+#
+# Format: email,github_id (one per line; lines starting with # are ignored).
+# The mapping takes precedence over the handle parsed from the MAINTAINERS file.
+email,github_id
+superq@gmail.com,SuperQ
+julius.volz@gmail.com,juliusv
+pasquier.simon@gmail.com,simonpasquier
+richih@richih.org,RichiH
+dmagliola@crystalgears.com,dmagliola
+tobidt@gmail.com,grobie
+kobi.zamir@gmail.com,yaacov
