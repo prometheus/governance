@@ -1,0 +1,9 @@
+# Generated at: 2026-05-26T14:27:04Z
+name,email,github_handle,repos
+Björn Rabenstein,beorn@grafana.com,beorn7,prometheus/prometheus-ghsa-p54f-935g-x7j2
+Chris Sinjakli,chris@sinjakli.co.uk,,prometheus/client_ruby
+Matthias Rampke,matthias@prometheus.io,,prometheus-community/rsyslog_exporter;prometheus/graphite_exporter;prometheus/influxdb_exporter
+maxime1907,19607336+maxime1907@users.noreply.github.com,maxime1907,prometheus-community/helm-charts
+Robert Fratto,robert.fratto@grafana.com,rfratto,prometheus/prometheus-ghsa-p54f-935g-x7j2
+Steve Durrheimer,s.durrheimer@gmail.com,,prometheus/busybox;prometheus/golang-builder
+Tom Braack,me@shorez.de,sh0rez,prometheus-community/prometheus;prometheus/prometheus
