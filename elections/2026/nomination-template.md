@@ -24,7 +24,7 @@ Reminders, per https://github.com/prometheus/governance/blob/main/GOVERNANCE.md:
 - [ ] I have read the
   [Governance document](https://github.com/prometheus/governance/blob/main/GOVERNANCE.md)
   and the
-  [Code of Conduct](https://github.com/prometheus/docs/blob/main/code-of-conduct.md),
+  [Code of Conduct](https://github.com/prometheus/docs/blob/main/CODE_OF_CONDUCT.md),
   and agree to uphold them if elected.
 
 ## Teams
