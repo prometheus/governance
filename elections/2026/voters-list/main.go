@@ -226,7 +226,7 @@ func run(outDir, mappingPath string) error {
 	for i, wr := range writers {
 		rawRows[i] = []string{wr.Login, wr.Source, wr.AccessType, wr.Name, wr.Email}
 	}
-	if err := writeCSV(rawPath, generatedAt, []string{"login", "source", "access_type", "name", "email"}, rawRows); err != nil {
+	if err := writeCSV(rawPath, []string{"login", "source", "access_type", "name", "email"}, rawRows); err != nil {
 		return fmt.Errorf("write raw csv: %w", err)
 	}
 
@@ -243,14 +243,14 @@ func run(outDir, mappingPath string) error {
 			strings.Join(e.Emails, ";"),
 		}
 	}
-	if err := writeCSV(finalPath, generatedAt, []string{"login", "sources", "access_types", "name", "email"}, dedupRows); err != nil {
+	if err := writeCSV(finalPath, []string{"login", "sources", "access_types", "name", "email"}, dedupRows); err != nil {
 		return fmt.Errorf("write final csv: %w", err)
 	}
 
 	// Write maintainers that are not in the write-access set.
 	noAccessPath := filepath.Join(outDir, "maintainers-without-write-access.csv")
 	noAccessRows := dedupMaintainers(noAccess)
-	if err := writeCSV(noAccessPath, generatedAt, []string{"name", "email", "github_handle", "repos"}, noAccessRows); err != nil {
+	if err := writeCSV(noAccessPath, []string{"name", "email", "github_handle", "repos"}, noAccessRows); err != nil {
 		return fmt.Errorf("write maintainers-without-write-access csv: %w", err)
 	}
 
@@ -664,9 +664,11 @@ func writeManifest(path string, entries []ManifestEntry) (err error) {
 	return enc.Encode(entries)
 }
 
-// writeCSV writes a CSV file with a "# Generated at:" comment, a header row,
-// and the given data rows.
-func writeCSV(path, generatedAt string, header []string, rows [][]string) (err error) {
+// writeCSV writes a CSV file with a header row and the given data rows. The
+// generation timestamp is recorded in manifest.json rather than as a CSV
+// comment, so the output stays valid CSV (a leading comment line confuses
+// strict parsers that expect every row to match the header's column count).
+func writeCSV(path string, header []string, rows [][]string) (err error) {
 	f, err := os.Create(path)
 	if err != nil {
 		return err
@@ -676,10 +678,6 @@ func writeCSV(path, generatedAt string, header []string, rows [][]string) (err e
 			err = cerr
 		}
 	}()
-
-	if _, err := fmt.Fprintf(f, "# Generated at: %s\n", generatedAt); err != nil {
-		return err
-	}
 
 	w := csv.NewWriter(f)
 

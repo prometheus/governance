@@ -1,4 +1,3 @@
-# Generated at: 2026-05-26T14:27:04Z
 login,source,access_type,name,email
 aknuds1,prometheus,org_member,,
 alexgreenbank,prometheus,org_member,,
@@ -280,7 +279,6 @@ prombot,prometheus-community/parquet-common,direct_collaborator,,
 yeya24,prometheus-community/parquet-common,direct_collaborator,,
 npazosmendez,prometheus-community/parquet-common,direct_collaborator,,
 celian-garcia,prometheus-community/highlightjs-promql,direct_collaborator,,
-MichaHoffmann,prometheus-community/parmetheus,direct_collaborator,,
 bboreham,prometheus/prometheus,maintainer,Bryan Boreham,bjboreham@gmail.com
 machine424,prometheus/prometheus,maintainer,Ayoub Mrini,ayoubmrini424@gmail.com
 roidelapluie,prometheus/prometheus,maintainer,Julien Pivotto,roidelapluie@prometheus.io
