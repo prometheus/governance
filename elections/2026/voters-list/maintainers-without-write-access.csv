@@ -1,4 +1,3 @@
-# Generated at: 2026-05-26T14:27:04Z
 name,email,github_handle,repos
 Björn Rabenstein,beorn@grafana.com,beorn7,prometheus/prometheus-ghsa-p54f-935g-x7j2
 Chris Sinjakli,chris@sinjakli.co.uk,,prometheus/client_ruby
