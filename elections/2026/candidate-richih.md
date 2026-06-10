@@ -1,10 +1,10 @@
--------------------------------------------------------------
+---
 name: Richard Hartmann
 ID: richih
 info:
   employer: Grafana
   affiliation: Other organizations you contribute on behalf of (or "None")
--------------------------------------------------------------
+---
 
 <!--
 Please copy this template to "candidate-<githubid>.md" in this directory and

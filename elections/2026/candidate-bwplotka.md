@@ -1,10 +1,10 @@
--------------------------------------------------------------
+---
 name: Bartłomiej Płotka
 ID: bwplotka
 info:
   employer: Google
   affiliation: None
--------------------------------------------------------------
+---
 
 ## Eligibility
 

@@ -1,10 +1,10 @@
--------------------------------------------------------------
+---
 name: Bryan Boreham
 ID: bboreham
 info:
   employer: Grafana Labs
   affiliation: None
--------------------------------------------------------------
+---
 
 ## Eligibility
 

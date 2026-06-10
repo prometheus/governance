@@ -1,10 +1,10 @@
--------------------------------------------------------------
+---
 name: Arthur Sens
 ID: ArthurSens
 info:
   employer: Grafana Labs
   affiliation: Co-lead of Prometheus Special Interest Group in OpenTelemetry.
--------------------------------------------------------------
+---
 
 ## Eligibility
 

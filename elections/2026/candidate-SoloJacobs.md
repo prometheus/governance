@@ -1,10 +1,10 @@
--------------------------------------------------------------
+---
 name: Solomon Jacobs
 ID: SoloJacobs
 info:
   employer: Checkmk GmbH
   affiliation: None
--------------------------------------------------------------
+---
 
 ## Eligibility
 
