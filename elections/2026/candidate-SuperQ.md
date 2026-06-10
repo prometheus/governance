@@ -1,10 +1,10 @@
--------------------------------------------------------------
+---
 name: Ben Kochie
 ID: SuperQ
 info:
   employer: Reddit, Inc.
   affiliation: None
--------------------------------------------------------------
+---
 
 
 ## Eligibility

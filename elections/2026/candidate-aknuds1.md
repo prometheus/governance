@@ -1,10 +1,10 @@
--------------------------------------------------------------
+---
 name: Arve Knudsen
 ID: aknuds1
 info:
   employer: Grafana Labs
   affiliation: None
--------------------------------------------------------------
+---
 
 ## Eligibility
 
