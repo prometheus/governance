@@ -10,10 +10,11 @@
 // set are written to maintainers-without-write-access.csv (they do not become
 // voters).
 //
-// A mapping file (-mapping, default email-to-github.csv) maps maintainer emails
-// to GitHub logins. It resolves MAINTAINERS entries that list a person by
-// name+email only (no @handle), or with a handle that needs correcting, so they
-// match the write-access set.
+// A mapping file (-mapping, default email-to-github.csv) ties a maintainer email
+// to a GitHub login and is applied in both directions. An email resolves (or
+// corrects) the GitHub handle, so a MAINTAINERS entry listed by name+email only
+// (no @handle) still matches the write-access set; a handle overrides the email,
+// so the list is the authoritative source for a maintainer's contact address.
 //
 // Usage:
 //
@@ -93,11 +94,11 @@ func run(outDir, mappingPath string) error {
 		return fmt.Errorf("create out dir: %w", err)
 	}
 
-	emailToLogin, err := loadEmailMapping(mappingPath)
+	emailToLogin, loginToEmail, err := loadMapping(mappingPath)
 	if err != nil {
 		return fmt.Errorf("load mapping: %w", err)
 	}
-	logf("Loaded %d email->github mappings from %s", len(emailToLogin), mappingPath)
+	logf("Loaded %d email<->github mappings from %s", len(emailToLogin), mappingPath)
 
 	token, err := resolveToken()
 	if err != nil {
@@ -190,8 +191,10 @@ func run(outDir, mappingPath string) error {
 	// Classify maintainers against the write-access set (matched by handle,
 	// case-insensitively). Matched entries enrich existing voters with
 	// name/email; unmatched entries (or those with no handle) are reported
-	// separately and do not become voters. The email->login mapping resolves
-	// the handle first, fixing entries listed by name+email only.
+	// separately and do not become voters. The mapping is applied in both
+	// directions and takes precedence over the MAINTAINERS file: an email
+	// resolves (or corrects) the handle, fixing entries listed by name+email
+	// only, and a handle overrides the email with the list's address.
 	loginByLower := make(map[string]string, len(writers))
 	for _, w := range writers {
 		loginByLower[strings.ToLower(w.Login)] = w.Login
@@ -200,6 +203,9 @@ func run(outDir, mappingPath string) error {
 	for _, m := range maintainers {
 		if id, ok := emailToLogin[strings.ToLower(m.Email)]; ok && m.Email != "" {
 			m.Handle = id
+		}
+		if email, ok := loginToEmail[strings.ToLower(m.Handle)]; ok && m.Handle != "" {
+			m.Email = email
 		}
 		canon, ok := loginByLower[strings.ToLower(m.Handle)]
 		if m.Handle != "" && ok {
@@ -213,6 +219,16 @@ func run(outDir, mappingPath string) error {
 			continue
 		}
 		noAccess = append(noAccess, m)
+	}
+
+	// The mapping is authoritative for contact addresses: attach (or override)
+	// the email of any voter whose login matches a github_id in the mapping.
+	// This also reaches voters sourced only from org membership or direct
+	// collaboration, who have no MAINTAINERS entry to carry an email.
+	for i := range writers {
+		if email, ok := loginToEmail[strings.ToLower(writers[i].Login)]; ok {
+			writers[i].Email = email
+		}
 	}
 
 	// Write manifest.
@@ -275,17 +291,23 @@ func resolveToken() (string, error) {
 	return strings.TrimSpace(string(out)), nil
 }
 
-// loadEmailMapping reads an email->GitHub-login mapping from a CSV file with
-// "email,github_id" rows ('#' comment lines are ignored). A missing file is not
-// an error: it returns an empty map. Emails are lower-cased for matching.
-func loadEmailMapping(path string) (map[string]string, error) {
+// loadMapping reads the maintainer email <-> GitHub-login mapping from a CSV
+// file with "email,github_id" rows ('#' comment lines are ignored). Each row is
+// an identity assertion usable in both directions, so two maps are returned:
+// emailToLogin (key lower-cased) and the reverse loginToEmail (key lower-cased,
+// value the email as written). A missing file is not an error: it returns empty
+// maps.
+func loadMapping(path string) (emailToLogin, loginToEmail map[string]string, err error) {
+	emailToLogin = map[string]string{}
+	loginToEmail = map[string]string{}
+
 	f, err := os.Open(path)
 	if err != nil {
 		if os.IsNotExist(err) {
 			logf("mapping file %s not found; continuing without it", path)
-			return map[string]string{}, nil
+			return emailToLogin, loginToEmail, nil
 		}
-		return nil, err
+		return nil, nil, err
 	}
 	defer f.Close()
 
@@ -294,22 +316,22 @@ func loadEmailMapping(path string) (map[string]string, error) {
 	r.FieldsPerRecord = -1
 	rows, err := r.ReadAll()
 	if err != nil {
-		return nil, err
+		return nil, nil, err
 	}
 
-	m := make(map[string]string, len(rows))
 	for _, row := range rows {
 		if len(row) < 2 {
 			continue
 		}
-		email := strings.ToLower(strings.TrimSpace(row[0]))
+		email := strings.TrimSpace(row[0])
 		id := strings.TrimSpace(row[1])
 		if email == "" || id == "" || strings.EqualFold(email, "email") {
 			continue
 		}
-		m[email] = id
+		emailToLogin[strings.ToLower(email)] = id
+		loginToEmail[strings.ToLower(id)] = email
 	}
-	return m, nil
+	return emailToLogin, loginToEmail, nil
 }
 
 func listOrgMembers(ctx context.Context, client *github.Client, org string) ([]string, error) {

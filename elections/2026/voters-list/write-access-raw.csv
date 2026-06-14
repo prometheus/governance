@@ -9,17 +9,17 @@ brancz,prometheus,org_member,,
 breed808,prometheus,org_member,,
 bwplotka,prometheus,org_member,,
 caniszczyk,prometheus,org_member,,
-carlpett,prometheus,org_member,,
+carlpett,prometheus,org_member,,calle@cape.nu
 carrieedwards,prometheus,org_member,,
-codesome,prometheus,org_member,,
+codesome,prometheus,org_member,,ganeshvern@gmail.com
 cristiangreco,prometheus,org_member,,
 csmarchbanks,prometheus,org_member,,
 cstyan,prometheus,org_member,,
-dashpole,prometheus,org_member,,
+dashpole,prometheus,org_member,,dashpole@google.com
 dgl,prometheus,org_member,,
 dhoard,prometheus,org_member,,
 discordianfish,prometheus,org_member,,
-dmagliola,prometheus,org_member,,
+dmagliola,prometheus,org_member,,dmagliola@crystalgears.com
 dswarbrick,prometheus,org_member,,
 electron0zero,prometheus,org_member,,
 fionaliao,prometheus,org_member,,
@@ -27,19 +27,19 @@ fstab,prometheus,org_member,,
 gardar,prometheus,org_member,,
 gotjosh,prometheus,org_member,,
 gouthamve,prometheus,org_member,,
-grobie,prometheus,org_member,,
+grobie,prometheus,org_member,,tobidt@gmail.com
 grobinson-grafana,prometheus,org_member,,
 jan--f,prometheus,org_member,,
 jesusvazquez,prometheus,org_member,,
 jkroepke,prometheus,org_member,,
-juliusv,prometheus,org_member,,
+juliusv,prometheus,org_member,,julius.volz@gmail.com
 kakkoyun,prometheus,org_member,,
 krajorama,prometheus,org_member,,
 machine424,prometheus,org_member,,
 matthiasr,prometheus,org_member,,
 mem,prometheus,org_member,,
 metalmatze,prometheus,org_member,,
-mxinden,prometheus,org_member,,
+mxinden,prometheus,org_member,,indenml@gmail.com
 Nexucis,prometheus,org_member,,
 npazosmendez,prometheus,org_member,,
 paulfantom,prometheus,org_member,,
@@ -47,15 +47,15 @@ pedro-stanaka,prometheus,org_member,,
 pgier,prometheus,org_member,,
 prombot,prometheus,org_member,,
 rajagopalanand,prometheus,org_member,,
-RichiH,prometheus,org_member,,
+RichiH,prometheus,org_member,,richih@richih.org
 roidelapluie,prometheus,org_member,,
 saswatamcode,prometheus,org_member,,
 siavashs,prometheus,org_member,,
-simonpasquier,prometheus,org_member,,
-Sinjo,prometheus,org_member,,
+simonpasquier,prometheus,org_member,,pasquier.simon@gmail.com
+Sinjo,prometheus,org_member,,chris@sinjakli.co.uk
 SoloJacobs,prometheus,org_member,,
 Spaceman1701,prometheus,org_member,,
-SuperQ,prometheus,org_member,,
+SuperQ,prometheus,org_member,,superq@gmail.com
 sysadmind,prometheus,org_member,,
 thelinuxfoundation,prometheus,org_member,,
 TheMeier,prometheus,org_member,,
@@ -66,7 +66,7 @@ ultrotter,prometheus,org_member,,
 vesari,prometheus,org_member,,
 w0rm,prometheus,org_member,,
 waltherlee,prometheus,org_member,,
-yaacov,prometheus,org_member,,
+yaacov,prometheus,org_member,,kobi.zamir@gmail.com
 ywwg,prometheus,org_member,,
 zeitlinger,prometheus,org_member,,
 acondrat,prometheus-community,org_member,,
@@ -85,9 +85,9 @@ breed808,prometheus-community,org_member,,
 bwplotka,prometheus-community,org_member,,
 caarlos0,prometheus-community,org_member,,
 caniszczyk,prometheus-community,org_member,,
-carlpett,prometheus-community,org_member,,
+carlpett,prometheus-community,org_member,,calle@cape.nu
 celian-garcia,prometheus-community,org_member,,
-codesome,prometheus-community,org_member,,
+codesome,prometheus-community,org_member,,ganeshvern@gmail.com
 cristiangreco,prometheus-community,org_member,,
 csmarchbanks,prometheus-community,org_member,,
 cstaud,prometheus-community,org_member,,
@@ -111,7 +111,7 @@ gkarthiks,prometheus-community,org_member,,
 GMartinez-Sisti,prometheus-community,org_member,,
 golgoth31,prometheus-community,org_member,,
 gouthamve,prometheus-community,org_member,,
-grobie,prometheus-community,org_member,,
+grobie,prometheus-community,org_member,,tobidt@gmail.com
 hectorj2f,prometheus-community,org_member,,
 iamabhishek-dubey,prometheus-community,org_member,,
 igaskin,prometheus-community,org_member,,
@@ -119,7 +119,7 @@ JessicaGreben,prometheus-community,org_member,,
 jesusvazquez,prometheus-community,org_member,,
 jkroepke,prometheus-community,org_member,,
 Juanchimienti,prometheus-community,org_member,,
-juliusv,prometheus-community,org_member,,
+juliusv,prometheus-community,org_member,,julius.volz@gmail.com
 kawamuray,prometheus-community,org_member,,
 kfox1111,prometheus-community,org_member,,
 kgeckhart,prometheus-community,org_member,,
@@ -135,7 +135,7 @@ maxwo,prometheus-community,org_member,,
 metalmatze,prometheus-community,org_member,,
 monotek,prometheus-community,org_member,,
 mrueg,prometheus-community,org_member,,
-mxinden,prometheus-community,org_member,,
+mxinden,prometheus-community,org_member,,indenml@gmail.com
 naseemkullah,prometheus-community,org_member,,
 nevill,prometheus-community,org_member,,
 Nexucis,prometheus-community,org_member,,
@@ -149,7 +149,7 @@ prombot,prometheus-community,org_member,,
 QuentinBisson,prometheus-community,org_member,,
 rakyll,prometheus-community,org_member,,
 rayram23,prometheus-community,org_member,,
-RichiH,prometheus-community,org_member,,
+RichiH,prometheus-community,org_member,,richih@richih.org
 roidelapluie,prometheus-community,org_member,,
 rpahli,prometheus-community,org_member,,
 rsicart,prometheus-community,org_member,,
@@ -161,14 +161,14 @@ schmiddim,prometheus-community,org_member,,
 scottrigby,prometheus-community,org_member,,
 Sheridan,prometheus-community,org_member,,
 simonfrey,prometheus-community,org_member,,
-simonpasquier,prometheus-community,org_member,,
+simonpasquier,prometheus-community,org_member,,pasquier.simon@gmail.com
 slrtbtfs,prometheus-community,org_member,,
 squat,prometheus-community,org_member,,
 stanhu,prometheus-community,org_member,,
 steven-sheehy,prometheus-community,org_member,,
 stewartshea,prometheus-community,org_member,,
 stuartnelson3,prometheus-community,org_member,,
-SuperQ,prometheus-community,org_member,,
+SuperQ,prometheus-community,org_member,,superq@gmail.com
 svenmueller,prometheus-community,org_member,,
 sysadmind,prometheus-community,org_member,,
 tariq1890,prometheus-community,org_member,,
@@ -199,9 +199,9 @@ zeitlinger,prometheus/client_java,direct_collaborator,,
 jaydeluca,prometheus/client_java,direct_collaborator,,
 dhoard,prometheus/client_java,direct_collaborator,,
 jack-berg,prometheus/client_java,direct_collaborator,,
-Sinjo,prometheus/client_ruby,direct_collaborator,,
-dmagliola,prometheus/client_ruby,direct_collaborator,,
-SuperQ,prometheus/statsd_exporter,direct_collaborator,,
+Sinjo,prometheus/client_ruby,direct_collaborator,,chris@sinjakli.co.uk
+dmagliola,prometheus/client_ruby,direct_collaborator,,dmagliola@crystalgears.com
+SuperQ,prometheus/statsd_exporter,direct_collaborator,,superq@gmail.com
 grobinson-grafana,prometheus/alertmanager,direct_collaborator,,
 fstab,prometheus/jmx_exporter,direct_collaborator,,
 zeitlinger,prometheus/jmx_exporter,direct_collaborator,,
@@ -210,12 +210,12 @@ dhoard,prometheus/jmx_exporter,direct_collaborator,,
 pgier,prometheus/procfs,direct_collaborator,,
 bastischubert,prometheus/snmp_exporter,direct_collaborator,,
 mem,prometheus/blackbox_exporter,direct_collaborator,,
-yaacov,prometheus/prometheus_api_client_ruby,direct_collaborator,,
-SuperQ,prometheus/talks,direct_collaborator,,
+yaacov,prometheus/prometheus_api_client_ruby,direct_collaborator,,kobi.zamir@gmail.com
+SuperQ,prometheus/talks,direct_collaborator,,superq@gmail.com
 gardar,prometheus/demo-site,direct_collaborator,,
 paulfantom,prometheus/demo-site,direct_collaborator,,
-simonpasquier,prometheus/circleci,direct_collaborator,,
-mxinden,prometheus/client_rust,direct_collaborator,,
+simonpasquier,prometheus/circleci,direct_collaborator,,pasquier.simon@gmail.com
+mxinden,prometheus/client_rust,direct_collaborator,,indenml@gmail.com
 krisztianfekete,prometheus/client_rust,direct_collaborator,,
 tomwilkie,prometheus/compliance,direct_collaborator,,
 bwplotka,prometheus/proposals,direct_collaborator,,
@@ -229,7 +229,7 @@ prombot,prometheus-community/postgres_exporter,direct_collaborator,,
 prombot,prometheus-community/bind_exporter,direct_collaborator,,
 prombot,prometheus-community/json_exporter,direct_collaborator,,
 martinlindhe,prometheus-community/windows_exporter,direct_collaborator,,
-carlpett,prometheus-community/windows_exporter,direct_collaborator,,
+carlpett,prometheus-community/windows_exporter,direct_collaborator,,calle@cape.nu
 prombot,prometheus-community/windows_exporter,direct_collaborator,,
 prombot,prometheus-community/stackdriver_exporter,direct_collaborator,,
 prombot,prometheus-community/PushProx,direct_collaborator,,
@@ -253,7 +253,7 @@ slrtbtfs,prometheus-community/promql-langserver,direct_collaborator,,
 prombot,prometheus-community/promql-langserver,direct_collaborator,,
 squat,prometheus-community/promql-langserver,direct_collaborator,,
 ant31,prometheus-community/vscode-promql,direct_collaborator,,
-simonpasquier,prometheus-community/vscode-promql,direct_collaborator,,
+simonpasquier,prometheus-community/vscode-promql,direct_collaborator,,pasquier.simon@gmail.com
 slrtbtfs,prometheus-community/vscode-promql,direct_collaborator,,
 prombot,prometheus-community/vscode-promql,direct_collaborator,,
 squat,prometheus-community/vscode-promql,direct_collaborator,,
@@ -298,7 +298,7 @@ tomwilkie,prometheus/prometheus,maintainer,Tom Wilkie,tom.wilkie@gmail.com
 alexgreenbank,prometheus/prometheus,maintainer,Alex Greenbank,alexgreenbank@yahoo.com
 ArthurSens,prometheus/prometheus,maintainer,Arthur Silva Sens,arthursens2005@gmail.com
 jesusvazquez,prometheus/prometheus,maintainer,Jesús Vázquez,jesus.vazquez@grafana.com
-codesome,prometheus/prometheus,maintainer,Ganesh Vernekar,ganesh@grafana.com
+codesome,prometheus/prometheus,maintainer,Ganesh Vernekar,ganeshvern@gmail.com
 jesusvazquez,prometheus/prometheus,maintainer,Jesús Vázquez,jesus.vazquez@grafana.com
 kgeckhart,prometheus/prometheus,maintainer,Kyle Eckhart,kyle.eckhart@grafana.com
 juliusv,prometheus/prometheus,maintainer,Julius Volz,julius.volz@gmail.com
@@ -387,7 +387,7 @@ csmarchbanks,prometheus/prometheus-ghsa-p54f-935g-x7j2,maintainer,Chris Marchban
 cstyan,prometheus/prometheus-ghsa-p54f-935g-x7j2,maintainer,Callum Styan,callumstyan@gmail.com
 bwplotka,prometheus/prometheus-ghsa-p54f-935g-x7j2,maintainer,Bartłomiej Płotka,bwplotka@gmail.com
 tomwilkie,prometheus/prometheus-ghsa-p54f-935g-x7j2,maintainer,Tom Wilkie,tom.wilkie@gmail.com
-codesome,prometheus/prometheus-ghsa-p54f-935g-x7j2,maintainer,Ganesh Vernekar,ganesh@grafana.com
+codesome,prometheus/prometheus-ghsa-p54f-935g-x7j2,maintainer,Ganesh Vernekar,ganeshvern@gmail.com
 bwplotka,prometheus/prometheus-ghsa-p54f-935g-x7j2,maintainer,Bartłomiej Płotka,bwplotka@gmail.com
 juliusv,prometheus/prometheus-ghsa-p54f-935g-x7j2,maintainer,Julius Volz,julius.volz@gmail.com
 Nexucis,prometheus/prometheus-ghsa-p54f-935g-x7j2,maintainer,Augustin Husson,husson.augustin@gmail.com
@@ -452,7 +452,7 @@ tomwilkie,prometheus-community/prometheus,maintainer,Tom Wilkie,tom.wilkie@gmail
 alexgreenbank,prometheus-community/prometheus,maintainer,Alex Greenbank,alexgreenbank@yahoo.com
 ArthurSens,prometheus-community/prometheus,maintainer,Arthur Silva Sens,arthursens2005@gmail.com
 jesusvazquez,prometheus-community/prometheus,maintainer,Jesús Vázquez,jesus.vazquez@grafana.com
-codesome,prometheus-community/prometheus,maintainer,Ganesh Vernekar,ganesh@grafana.com
+codesome,prometheus-community/prometheus,maintainer,Ganesh Vernekar,ganeshvern@gmail.com
 jesusvazquez,prometheus-community/prometheus,maintainer,Jesús Vázquez,jesus.vazquez@grafana.com
 juliusv,prometheus-community/prometheus,maintainer,Julius Volz,julius.volz@gmail.com
 Nexucis,prometheus-community/prometheus,maintainer,Augustin Husson,husson.augustin@gmail.com
