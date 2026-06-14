@@ -322,6 +322,7 @@ jaydeluca,prometheus/client_java,maintainer,Jay DeLuca,jaydeluca4@gmail.com
 SuperQ,prometheus/node_exporter,maintainer,Ben Kochie,superq@gmail.com
 discordianfish,prometheus/node_exporter,maintainer,Johannes 'fish' Ziemke,github@freigeist.org
 SuperQ,prometheus/client_ruby,maintainer,Ben Kochie,superq@gmail.com
+Sinjo,prometheus/client_ruby,maintainer,Chris Sinjakli,chris@sinjakli.co.uk
 dmagliola,prometheus/client_ruby,maintainer,Daniel Magliola,dmagliola@crystalgears.com
 bwplotka,prometheus/client_model,maintainer,Bartłomiej Płotka,bwplotka@gmail.com
 matthiasr,prometheus/statsd_exporter,maintainer,Matthias Rampke,matthias@prometheus.io
@@ -375,7 +376,7 @@ roidelapluie,prometheus/exporter-toolkit,maintainer,Julien Pivotto,roidelapluie@
 krisztianfekete,prometheus/client_rust,maintainer,Krisztian Fekete,prometheus@krisztianfekete.org
 SuperQ,prometheus/snmp_exporter_mibs,maintainer,Ben Kochie,superq@gmail.com
 RichiH,prometheus/snmp_exporter_mibs,maintainer,Richard Hartmann,richih@richih.org
-tomwilkie,prometheus/compliance,maintainer,Tom Wilkie,tom.wilkie@gmail.com
+bwplotka,prometheus/compliance,maintainer,Bartek Płotka,bwplotka@gmail.com
 RichiH,prometheus/compliance,maintainer,"Richard ""RichiH"" Hartmann",richih@richih.org
 juliusv,prometheus/compliance,maintainer,Julius Volz,julius.volz@gmail.com
 juliusv,prometheus/promlens,maintainer,Julius Volz,julius.volz@gmail.com
