@@ -20,19 +20,19 @@ bitfehler,prometheus;prometheus-community;prometheus-community/ipmi_exporter;pro
 bluecmd,prometheus-community;prometheus-community/fortigate_exporter,org_member;direct_collaborator,,
 brancz,prometheus;prometheus-community;prometheus-community/prom-label-proxy;prometheus/prometheus;prometheus/prometheus-ghsa-p54f-935g-x7j2;prometheus-community/prometheus,org_member;org_member;direct_collaborator;maintainer;maintainer;maintainer,Frederic Branczyk,fbranczyk@gmail.com
 breed808,prometheus;prometheus-community;prometheus-community/windows_exporter,org_member;org_member;maintainer,Ben Reedy,breed808@breed808.com
-bwplotka,prometheus;prometheus-community;prometheus/proposals;prometheus/prometheus;prometheus/client_golang;prometheus/client_model;prometheus/prom2json;prometheus/test-infra;prometheus/prometheus-ghsa-p54f-935g-x7j2;prometheus/prometheus-ghsa-p54f-935g-x7j2;prometheus-community/avalanche;prometheus-community/prometheus,org_member;org_member;direct_collaborator;maintainer;maintainer;maintainer;maintainer;maintainer;maintainer;maintainer;maintainer;maintainer,Bartłomiej Płotka;Bartek Plotka;Bartek Płotka,bwplotka@gmail.com
+bwplotka,prometheus;prometheus-community;prometheus/proposals;prometheus/prometheus;prometheus/client_golang;prometheus/client_model;prometheus/prom2json;prometheus/test-infra;prometheus/compliance;prometheus/prometheus-ghsa-p54f-935g-x7j2;prometheus/prometheus-ghsa-p54f-935g-x7j2;prometheus-community/avalanche;prometheus-community/prometheus,org_member;org_member;direct_collaborator;maintainer;maintainer;maintainer;maintainer;maintainer;maintainer;maintainer;maintainer;maintainer;maintainer,Bartłomiej Płotka;Bartek Plotka;Bartek Płotka,bwplotka@gmail.com
 caarlos0,prometheus-community;prometheus-community/helm-charts,org_member;maintainer,caarlos0,carlos@carlosbecker.com
 caniszczyk,prometheus;prometheus-community,org_member;org_member,,
-carlpett,prometheus;prometheus-community;prometheus-community/windows_exporter,org_member;org_member;direct_collaborator,,
+carlpett,prometheus;prometheus-community;prometheus-community/windows_exporter,org_member;org_member;direct_collaborator,,calle@cape.nu
 carrieedwards,prometheus;prometheus/prometheus;prometheus-community/prometheus,org_member;maintainer;maintainer,Carrie Edwards,carrie.edwards@grafana.com
 celian-garcia,prometheus-community;prometheus-community/highlightjs-promql;prometheus-community/monaco-promql;prometheus-community/highlightjs-promql,org_member;direct_collaborator;maintainer;maintainer,Célian Garcia,celian.garcia1@gmail.com
-codesome,prometheus;prometheus-community;prometheus/prometheus;prometheus/prometheus-ghsa-p54f-935g-x7j2;prometheus-community/prometheus,org_member;org_member;maintainer;maintainer;maintainer,Ganesh Vernekar,ganesh@grafana.com
+codesome,prometheus;prometheus-community;prometheus/prometheus;prometheus/prometheus-ghsa-p54f-935g-x7j2;prometheus-community/prometheus,org_member;org_member;maintainer;maintainer;maintainer,Ganesh Vernekar,ganeshvern@gmail.com
 cristiangreco,prometheus;prometheus-community;prometheus-community/yet-another-cloudwatch-exporter;prometheus-community/helm-charts,org_member;org_member;maintainer;maintainer,Cristian Greco,cristian.greco@grafana.com
 csmarchbanks,prometheus;prometheus-community;prometheus/client_python;prometheus/prometheus-ghsa-p54f-935g-x7j2,org_member;org_member;maintainer;maintainer,Chris Marchbanks,csmarchbanks@gmail.com
 cstaud,prometheus-community;prometheus-community/helm-charts,org_member;maintainer,cstaud,christian.staude@staffbase.com
 cstyan,prometheus;prometheus-community;prometheus/prometheus;prometheus/prometheus-ghsa-p54f-935g-x7j2;prometheus-community/prometheus,org_member;org_member;maintainer;maintainer;maintainer,Callum Styan,callumstyan@gmail.com
 dacamposol,prometheus-community;prometheus-community/helm-charts,org_member;maintainer,dacamposol,dacamposol@gmail.com
-dashpole,prometheus,org_member,,
+dashpole,prometheus,org_member,,dashpole@google.com
 derekmarcotte,prometheus-community,org_member,,
 desaintmartin,prometheus-community;prometheus-community/helm-charts;prometheus-community/helm-charts;prometheus-community/helm-charts;prometheus-community/helm-charts,org_member;maintainer;maintainer;maintainer;maintainer,desaintmartin,cedric@desaintmartin.fr
 dgl,prometheus;prometheus/prometheus;prometheus/prometheus-ghsa-p54f-935g-x7j2;prometheus-community/prometheus,org_member;maintainer;maintainer;maintainer,David Leadbeater,dgl@dgl.cx
@@ -98,7 +98,7 @@ MichaHoffmann,prometheus-community/parquet-wg;prometheus-community/parquet-commo
 monotek,prometheus-community;prometheus-community/helm-charts;prometheus-community/helm-charts;prometheus-community/helm-charts;prometheus-community/helm-charts;prometheus-community/helm-charts;prometheus-community/helm-charts;prometheus-community/helm-charts,org_member;maintainer;maintainer;maintainer;maintainer;maintainer;maintainer;maintainer,André Bauer;monotek,monotek23@gmail.com
 mrueg,prometheus-community;prometheus-community/helm-charts,org_member;maintainer,mrueg,manuel@rueg.eu
 mrvarmazyar,prometheus/prometheus;prometheus/prometheus;prometheus-community/prometheus,direct_collaborator;maintainer;maintainer,Mohammad Varmazyar,mrvarmazyar@gmail.com
-mxinden,prometheus;prometheus-community;prometheus/client_rust,org_member;org_member;direct_collaborator,,
+mxinden,prometheus;prometheus-community;prometheus/client_rust,org_member;org_member;direct_collaborator,,indenml@gmail.com
 naseemkullah,prometheus-community;prometheus-community/helm-charts;prometheus-community/helm-charts,org_member;maintainer;maintainer,naseemkullah,naseem@transit.app
 nevill,prometheus-community;prometheus-community/prometheus,org_member;direct_collaborator,,
 Nexucis,prometheus;prometheus-community;prometheus/prometheus;prometheus/prometheus-ghsa-p54f-935g-x7j2;prometheus-community/prometheus,org_member;org_member;maintainer;maintainer;maintainer,Augustin Husson,husson.augustin@gmail.com
@@ -133,7 +133,7 @@ Sheridan,prometheus-community,org_member,,
 siavashs,prometheus;prometheus/alertmanager,org_member;maintainer,Siavash Safi,siavash@cloudflare.com
 simonfrey,prometheus-community;prometheus-community/elasticsearch_exporter,org_member;direct_collaborator,,
 simonpasquier,prometheus;prometheus-community;prometheus/circleci;prometheus-community/vscode-promql;prometheus/prometheus;prometheus/alertmanager;prometheus/consul_exporter;prometheus/circleci;prometheus/prometheus-ghsa-p54f-935g-x7j2;prometheus-community/prom-label-proxy;prometheus-community/prometheus,org_member;org_member;direct_collaborator;direct_collaborator;maintainer;maintainer;maintainer;maintainer;maintainer;maintainer;maintainer,Simon Pasquier,pasquier.simon@gmail.com
-Sinjo,prometheus;prometheus/client_ruby,org_member;direct_collaborator,,
+Sinjo,prometheus;prometheus/client_ruby;prometheus/client_ruby,org_member;direct_collaborator;maintainer,Chris Sinjakli,chris@sinjakli.co.uk
 slrtbtfs,prometheus-community;prometheus-community/promql-langserver;prometheus-community/vscode-promql,org_member;direct_collaborator;direct_collaborator,,
 SoloJacobs,prometheus;prometheus/alertmanager,org_member;maintainer,Solomon Jacobs,solomonjacobs@protonmail.com
 Spaceman1701,prometheus;prometheus/alertmanager,org_member;maintainer,Ethan Hunter,fc.spaceman@gmail.com
@@ -151,7 +151,7 @@ TheMeier,prometheus,org_member,,
 thomaspeitz,prometheus;prometheus-community;prometheus-community/yet-another-cloudwatch-exporter;prometheus-community/helm-charts,org_member;org_member;maintainer;maintainer,Thomas Peitz,info@thomas-peitz.de
 timm088,prometheus-community;prometheus-community/helm-charts,org_member;maintainer,timm088,8890118+timm088@users.noreply.github.com
 tombrk,prometheus,org_member,,
-tomwilkie,prometheus;prometheus-community;prometheus/compliance;prometheus/prometheus;prometheus/compliance;prometheus/prometheus-ghsa-p54f-935g-x7j2;prometheus-community/prometheus,org_member;org_member;direct_collaborator;maintainer;maintainer;maintainer;maintainer,Tom Wilkie,tom.wilkie@gmail.com
+tomwilkie,prometheus;prometheus-community;prometheus/compliance;prometheus/prometheus;prometheus/prometheus-ghsa-p54f-935g-x7j2;prometheus-community/prometheus,org_member;org_member;direct_collaborator;maintainer;maintainer;maintainer,Tom Wilkie,tom.wilkie@gmail.com
 torstenwalter,prometheus-community;prometheus-community/helm-charts;prometheus-community/helm-charts,org_member;maintainer;maintainer,Torsten Walter;torstenwalter,mail@torstenwalter.de
 tristanburgess,prometheus-community;prometheus-community/yet-another-cloudwatch-exporter;prometheus-community/helm-charts,org_member;maintainer;maintainer,Tristan Burgess,tristan.burgess@grafana.com
 ultrotter,prometheus;prometheus/alertmanager,org_member;maintainer,Guido Trotter,ultrotter@gmail.com

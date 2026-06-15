@@ -116,7 +116,7 @@ func TestParseMaintainers(t *testing.T) {
 	}
 }
 
-func TestLoadEmailMapping(t *testing.T) {
+func TestLoadMapping(t *testing.T) {
 	dir := t.TempDir()
 	path := filepath.Join(dir, "email-to-github.csv")
 	content := "# a comment\n" +
@@ -129,24 +129,33 @@ func TestLoadEmailMapping(t *testing.T) {
 		t.Fatal(err)
 	}
 
-	got, err := loadEmailMapping(path)
+	emailToLogin, loginToEmail, err := loadMapping(path)
 	if err != nil {
-		t.Fatalf("loadEmailMapping: %v", err)
+		t.Fatalf("loadMapping: %v", err)
 	}
-	want := map[string]string{
+	wantEmailToLogin := map[string]string{
 		"superq@gmail.com":      "SuperQ",
 		"julius.volz@gmail.com": "juliusv",
 	}
-	if !reflect.DeepEqual(got, want) {
-		t.Errorf("loadEmailMapping() = %#v, want %#v", got, want)
+	if !reflect.DeepEqual(emailToLogin, wantEmailToLogin) {
+		t.Errorf("loadMapping() emailToLogin = %#v, want %#v", emailToLogin, wantEmailToLogin)
+	}
+	// The reverse map is keyed by lower-cased login; the email keeps its
+	// original (trimmed) casing so it is reproduced verbatim in the output.
+	wantLoginToEmail := map[string]string{
+		"superq":  "superq@gmail.com",
+		"juliusv": "Julius.Volz@gmail.com",
+	}
+	if !reflect.DeepEqual(loginToEmail, wantLoginToEmail) {
+		t.Errorf("loadMapping() loginToEmail = %#v, want %#v", loginToEmail, wantLoginToEmail)
 	}
 
 	// A missing file is not an error.
-	got, err = loadEmailMapping(filepath.Join(dir, "does-not-exist.csv"))
+	emailToLogin, loginToEmail, err = loadMapping(filepath.Join(dir, "does-not-exist.csv"))
 	if err != nil {
 		t.Fatalf("missing file should not error: %v", err)
 	}
-	if len(got) != 0 {
-		t.Errorf("missing file should yield empty map, got %#v", got)
+	if len(emailToLogin) != 0 || len(loginToEmail) != 0 {
+		t.Errorf("missing file should yield empty maps, got %#v / %#v", emailToLogin, loginToEmail)
 	}
 }
