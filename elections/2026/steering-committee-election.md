@@ -179,6 +179,9 @@ elected to the inaugural Steering Committee:
 | Kemal Akkoyun        | Datadog          | July 2027 |
 | Solomon Jacobs       | Checkmk GmbH     | July 2027 |
 
+The full CIVS tally is public at
+[civs1.civs.us/cgi-bin/results.pl?id=E_aa350fd8aadf6dd2](https://civs1.civs.us/cgi-bin/results.pl?id=E_aa350fd8aadf6dd2).
+
 Per the migration section of the Governance document:
 
 * The **top 3** by Condorcet ranking serve **2-year terms** (through the
