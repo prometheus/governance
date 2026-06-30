@@ -166,29 +166,35 @@ individual's vote.
 
 # Results
 
-Voting will close at **29 June 2026 23:59 UTC**. The Election Officers will
-publish the full CIVS results, then apply the company-representation cap.
+Voting closed at **29 June 2026 23:59 UTC**. The following candidates were
+elected to the inaugural Steering Committee:
 
-Per the
-[Governance document](../../GOVERNANCE.md#limitations-on-company-representation),
-no more than 2 seats may be held by employees or contractors of the same
-organization (or conglomerate). If the raw ranking would result in more than
-2 people from the same organization being seated, the lowest-ranked
-candidate(s) from that employer are skipped until representation is at most
-2.
+| Member               | Organization     | Term ends |
+| -------------------- | ---------------- | --------- |
+| Bartłomiej Płotka    | Google           | July 2028 |
+| Ben Kochie           | Reddit, Inc.     | July 2028 |
+| Bryan Boreham        | Grafana Labs     | July 2028 |
+| Arthur Sens          | Grafana Labs     | July 2027 |
+| Jan Fajerski         | Red Hat          | July 2027 |
+| Kemal Akkoyun        | Datadog          | July 2027 |
+| Solomon Jacobs       | Checkmk GmbH     | July 2027 |
 
-Once the 7-seat slate is finalized:
+Per the migration section of the Governance document:
 
 * The **top 3** by Condorcet ranking serve **2-year terms** (through the
-  regular 2028 election cycle).
+  regular 2028 election cycle): Bartłomiej Płotka, Ben Kochie, and Bryan
+  Boreham.
 * The **next 4** serve **1-year terms** (through the regular 2027 election
-  cycle).
+  cycle): Arthur Sens, Jan Fajerski, Kemal Akkoyun, and Solomon Jacobs.
 
-Results will be announced by **6 July 2026** (within 1 week of voting close).
-On that date the new Steering Committee is seated, the
+The company-representation cap was applied per the
+[Governance document](../../GOVERNANCE.md#limitations-on-company-representation):
+no more than 2 seats may be held by employees or contractors of the same
+organization (or conglomerate).
+
+With these results announced, the new Steering Committee is seated, the
 [Committee members](../../GOVERNANCE.md#committee-members) table in
-GOVERNANCE.md will be filled in by PR, and the new governance comes into
-effect.
+GOVERNANCE.md has been filled in, and the new governance comes into effect.
 
 # Schedule
 

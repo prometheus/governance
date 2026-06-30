@@ -44,8 +44,15 @@ Seats on the Steering Committee are held by individuals, not by or through their
 
 The current membership of the Steering Committee, listed alphabetically by first name:
 
-| \\&nbsp;                                                         | Member           | Organization |  
-| -------------------------------------------------------------- | ---------------- | ------------ |
+| Member               | Organization     | Term ends  |
+| -------------------- | ---------------- | ---------- |
+| Arthur Sens          | Grafana Labs     | July 2027  |
+| Bartłomiej Płotka    | Google           | July 2028  |
+| Ben Kochie           | Reddit, Inc.     | July 2028  |
+| Bryan Boreham        | Grafana Labs     | July 2028  |
+| Jan Fajerski         | Red Hat          | July 2027  |
+| Kemal Akkoyun        | Datadog          | July 2027  |
+| Solomon Jacobs       | Checkmk GmbH     | July 2027  |
 
 ## Decision process
 
