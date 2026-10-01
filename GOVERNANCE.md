@@ -48,7 +48,7 @@ The current membership of the Steering Committee, listed alphabetically by first
 | -------------------- | ---------------- | ---------- |
 | Arthur Sens          | Grafana Labs     | July 2027  |
 | Bartłomiej Płotka    | Google           | July 2028  |
-| Ben Kochie           | Reddit, Inc.     | July 2028  |
+| Ben Kochie           | Independent      | July 2028  |
 | Bryan Boreham        | Grafana Labs     | July 2028  |
 | Jan Fajerski         | Red Hat          | July 2027  |
 | Kemal Akkoyun        | Datadog          | July 2027  |
