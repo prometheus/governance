@@ -18,7 +18,7 @@ Description: A Contributor contributes directly to the project and adds value to
   * Answer questions from other community members.
   * Help to test new releases.
   * Run or help run events.
-  * Promote the project in public.
+  * Promote the project in public (e.g., authoring or reviewing blog posts, social media announcements, and community stories).
   * Help run the project infrastructure.
 * Responsibilities
   * Follow the CNCF CoC
@@ -64,24 +64,24 @@ The process for a Contributor to become a Member is as follows:
 
 ### Maintainer
 
-Description: Maintainers are well-established contributors who review and approve code contributions. Maintainers are responsible for the long-term health of the project, including reviewing PRs, stability, adoption, security, etc.
+Description: Maintainers are well-established contributors who review and approve contributions to a project repository. Maintainers are responsible for the long-term health of the project, including reviewing PRs, stability, adoption, security, and community communications.
 
-Maintainer status is scoped to a repository or a part of the codebase.
+Maintainer status is scoped to a repository or a part of the codebase, including non-code repositories such as documentation, proposals, or social media communications.
 
 A Maintainer must meet the responsibilities and requirements of an Organization Member, plus:
 
 * Responsibilities include
-  * Demonstrate sound technical judgment.
-  * Responsible for project quality control via code reviews
+  * Demonstrate sound technical or editorial judgment.
+  * Responsible for project quality control via PR reviews
   * Responsible for the technical quality control of the documentation related to their project
   * Expected to be responsive to review requests
   * Mentoring new contributors
   * Determining strategy and policy for the project
   * Participating in and leading community meetings
-  * May merge PRs affecting the code they are Maintainers for
+  * May merge PRs affecting the repository or code they are Maintainers for
 * Requirements
-  * Consistently contributing to the codebase.
-  * Reviewer for or author of substantial PRs to the codebase, with the definition of substantial subject to the maintainer’s discretion (e.g., refactors/adds new functionality rather than one-line pulls).
+  * Consistently contributing to the repository or codebase.
+  * Reviewer for or author of substantial PRs to the repository or codebase, with the definition of substantial subject to the maintainer’s discretion (e.g., refactors/adds new functionality or substantial documentation/communications content rather than one-line pulls).
   * Can exercise judgment for the good of the project, independent of their employer, friends, or team
 * Additional privileges
   * Can manage CI and package registry secrets
