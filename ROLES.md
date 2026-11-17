@@ -53,7 +53,7 @@ A Member must meet the responsibilities and have the requirements of a Contribut
 
 The process for a Contributor to become a Member is as follows:
 
-1. Open a GitHub Issue against the [prometheus/governance](https://github.com/prometheus/governance).
+1. Open a GitHub Issue against the [prometheus/governance](https://github.com/prometheus/governance) using the [membership application form](https://github.com/prometheus/governance/issues/new?template=membership-application.yaml).
 2. Ensure your sponsors are @mentioned on the issue.
 3. Assign label membership-application
 4. Complete every item on the checklist.

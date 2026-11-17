@@ -1,0 +1,89 @@
+name: Membership application
+description: Apply to become a Prometheus Member.
+title: 'Membership application: @<your-github-username>'
+labels:
+  - membership-application
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for contributing to Prometheus! Read the [Member requirements](https://github.com/prometheus/governance/blob/main/ROLES.md#member) before applying.
+
+        Ask at least two Maintainers to sponsor your application before submitting it. At least one sponsor must have a different employer from you.
+
+        Replace the placeholder in the issue title with your GitHub username. The `membership-application` label is applied automatically.
+
+  - type: input
+    id: github-username
+    attributes:
+      label: GitHub username
+      placeholder: '@your-github-username'
+    validations:
+      required: true
+
+  - type: input
+    id: name
+    attributes:
+      label: Name
+      placeholder: Your name
+    validations:
+      required: true
+
+  - type: textarea
+    id: sponsors
+    attributes:
+      label: Sponsors
+      description: |
+        @mention at least two Maintainers who have agreed to sponsor you. At least one must have a different employer from you.
+        Each sponsor must reply to the submitted issue with explicit confirmation, such as "I support this application".
+      placeholder: |
+        - @sponsor-1
+        - @sponsor-2
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: requirements
+    attributes:
+      label: Requirements checklist
+      options:
+        - label: I have enabled two-factor authentication on my GitHub account.
+          required: true
+        - label: I have at least 20 qualifying contributions in the past year, with supporting evidence below.
+          required: true
+        - label: At least two Maintainers have agreed to sponsor this application, including at least one whose employer differs from mine.
+          required: true
+        - label: I agree to follow the [CNCF Code of Conduct](https://github.com/cncf/foundation/blob/main/code-of-conduct.md) and the applicable project contributing guides.
+          required: true
+        - label: I have read the [Member responsibilities](https://github.com/prometheus/governance/blob/main/ROLES.md#member) and intend to continue contributing regularly.
+          required: true
+        - label: I understand that the Steering Committee or its delegates will review this application after my sponsors confirm their support.
+          required: true
+
+  - type: input
+    id: contribution-period
+    attributes:
+      label: Contribution period
+      description: Give the date range covering the past year of contributions.
+      placeholder: YYYY-MM-DD to YYYY-MM-DD
+    validations:
+      required: true
+
+  - type: textarea
+    id: contributions
+    attributes:
+      label: Contributions in the past year
+      description: |
+        Add your contributions from the past year, including links or brief descriptions. You can use GitHub CLI, DevStats, or Linux Foundation Insights to help gather them.
+      placeholder: |
+        - Date or period: link or description — your contribution
+    validations:
+      required: true
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: Briefly describe your involvement in Prometheus and how you plan to keep contributing.
+    validations:
+      required: true
